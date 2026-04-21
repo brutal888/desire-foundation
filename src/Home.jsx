@@ -14,17 +14,17 @@ export default function Home() {
 <div className="custom-cursor-follower hidden md:block" id="cursor-follower"></div>
 {/*  Top Navigation Bar  */}
 <nav className="sticky top-0 z-50 w-full flex justify-between items-center px-12 py-4 bg-stone-50/70 dark:bg-stone-900/70 backdrop-blur-xl shadow-xl shadow-stone-200/20 dark:shadow-none reveal active">
-<div className="flex items-center gap-3"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50">Desire Foundation</div></div>
+<a href="/" className="flex items-center gap-3"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50">Desire Foundation</div></a>
 <div className="hidden md:flex items-center space-x-8">
-<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-emerald-800 dark:text-emerald-200 border-b-2 border-emerald-800 dark:border-emerald-200 pb-1" href="/#">Our Story</a></div>
-<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/#">Impact</a></div>
-<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/#">Projects</a></div>
-<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/#">Join Us</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-emerald-800 dark:text-emerald-200 border-b-2 border-emerald-800 dark:border-emerald-200 pb-1" href="/about">Our Story</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/about">Impact</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/projects">Projects</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/join">Join Us</a></div>
 </div>
 <div className="magnetic-wrap">
-<button className="bg-primary text-on-primary rounded-full px-6 py-2 text-xs font-bold uppercase tracking-widest hover:opacity-80 transition-opacity duration-300">
+<a href="/join"><button className="bg-primary text-on-primary rounded-full px-6 py-2 text-xs font-bold uppercase tracking-widest hover:opacity-80 transition-opacity duration-300">
                 Partner With Us
-            </button>
+            </button></a>
 </div>
 </nav>
 {/*  Hero Section  */}
@@ -46,15 +46,15 @@ export default function Home() {
             </p>
 <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
 <div className="magnetic-wrap">
-<button className="bg-primary text-on-primary rounded-full px-10 py-5 text-sm font-bold uppercase tracking-widest hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500">
+<a href="/join"><button className="bg-primary text-on-primary rounded-full px-10 py-5 text-sm font-bold uppercase tracking-widest hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500">
                         Join the Movement
-                    </button>
+                    </button></a>
 </div>
 <div className="magnetic-wrap">
-<button className="group flex items-center gap-3 font-bold uppercase tracking-widest text-xs py-5 px-6">
+<a href="/join"><button className="group flex items-center gap-3 font-bold uppercase tracking-widest text-xs py-5 px-6">
 <span className="w-12 h-[1px] bg-outline-variant group-hover:w-16 group-hover:bg-primary transition-all duration-500"></span>
                         Inquire for Partnership
-                    </button>
+                    </button></a>
 </div>
 </div>
 </div>
@@ -185,14 +185,14 @@ export default function Home() {
 {/*  Footer  */}
 <footer className="w-full py-20 px-8 md:px-24 grid grid-cols-1 md:grid-cols-4 gap-12 bg-stone-100 dark:bg-stone-950 text-stone-800 dark:text-stone-200 reveal">
 <div className="col-span-1 md:col-span-1">
-<div className="flex items-center gap-4 mb-8"><img src="/logo.png" alt="Desire Foundation Logo" className="h-12 w-auto" /><div className="font-serif text-3xl text-emerald-900 dark:text-emerald-100">Desire Foundation</div></div>
+<a href="/" className="flex items-center gap-4 mb-8"><img src="/logo.png" alt="Desire Foundation Logo" className="h-12 w-auto" /><div className="font-serif text-3xl text-emerald-900 dark:text-emerald-100">Desire Foundation</div></a>
 <p className="font-sans text-sm leading-relaxed text-stone-500 dark:text-stone-400">© 2024 Desire Foundation. Curating History Through Fine Textile Artistry.</p>
 </div>
 <div>
 <span className="uppercase tracking-widest text-[10px] text-stone-400 mb-6 block">Foundation</span>
 <ul className="space-y-4">
-<li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/#">About</a></li>
-<li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/#">Careers</a></li>
+<li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/about">About</a></li>
+<li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/join">Careers</a></li>
 <li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/#">Annual Reports</a></li>
 <li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/#">Ethics</a></li>
 </ul>
@@ -200,7 +200,7 @@ export default function Home() {
 <div>
 <span className="uppercase tracking-widest text-[10px] text-stone-400 mb-6 block">Connect</span>
 <ul className="space-y-4">
-<li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/#">Contact</a></li>
+<li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/join">Contact</a></li>
 <li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/#">Instagram</a></li>
 <li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/#">LinkedIn</a></li>
 <li><a className="text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700 ease-in-out text-sm" href="/#">Facebook</a></li>

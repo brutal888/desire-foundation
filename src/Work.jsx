@@ -11,16 +11,16 @@ export default function Work() {
       
 {/*  TopNavBar  */}
 <header className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-12 py-4 rounded-full mt-6 mx-auto max-w-7xl bg-stone-50/70 dark:bg-stone-900/70 backdrop-blur-xl shadow-xl shadow-stone-200/20 dark:shadow-none transition-opacity duration-300">
-<div className="flex items-center gap-3"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50">Desire Foundation</div></div>
+<a href="/" className="flex items-center gap-3"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50">Desire Foundation</div></a>
 <nav className="hidden md:flex items-center gap-8">
-<a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/#">Our Story</a>
-<a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/#">Impact</a>
-<a className="tracking-wide uppercase text-xs font-semibold text-emerald-800 dark:text-emerald-200 border-b-2 border-emerald-800 dark:border-emerald-200 pb-1" href="/#">Projects</a>
-<a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/#">Join Us</a>
+<a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/about">Our Story</a>
+<a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/about">Impact</a>
+<a className="tracking-wide uppercase text-xs font-semibold text-emerald-800 dark:text-emerald-200 border-b-2 border-emerald-800 dark:border-emerald-200 pb-1" href="/projects">Projects</a>
+<a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/join">Join Us</a>
 </nav>
-<button className="bg-primary text-on-primary px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase hover:opacity-80 transition-opacity duration-300">
+<a href="/join"><button className="bg-primary text-on-primary px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase hover:opacity-80 transition-opacity duration-300">
             Partner With Us
-        </button>
+        </button></a>
 </header>
 <main className="pt-40 pb-24">
 {/*  Hero Section  */}
@@ -161,9 +161,9 @@ export default function Work() {
 <div>
 <div className="uppercase tracking-widest text-[10px] text-stone-800 dark:text-stone-200 font-bold mb-6">The Archive</div>
 <ul className="space-y-3">
-<li><a className="text-sm font-sans text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700" href="/#">About</a></li>
-<li><a className="text-sm font-sans text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700" href="/#">Careers</a></li>
-<li><a className="text-sm font-sans text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700" href="/#">Contact</a></li>
+<li><a className="text-sm font-sans text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700" href="/about">About</a></li>
+<li><a className="text-sm font-sans text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700" href="/join">Careers</a></li>
+<li><a className="text-sm font-sans text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700" href="/join">Contact</a></li>
 <li><a className="text-sm font-sans text-stone-500 dark:text-stone-400 hover:text-rose-700 dark:hover:text-rose-300 transition-all duration-700" href="/#">Ethics</a></li>
 </ul>
 </div>

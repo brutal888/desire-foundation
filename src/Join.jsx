@@ -14,14 +14,14 @@ export default function Join() {
 <nav className="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
 <div className="text-2xl font-serif italic text-[#1b1c19] dark:text-[#fbf9f4] font-headline tracking-tight">Desire Foundation</div>
 <div className="hidden md:flex items-center gap-10 font-['Noto_Serif'] tracking-tight">
-<a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/#">Our Story</a>
-<a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/#">Impact</a>
-<a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/#">Projects</a>
-<a className="text-[#4e6450] dark:text-[#8ca38d] font-semibold border-b-2 border-[#4e6450] transition-colors duration-500" href="/#">Join Us</a>
+<a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/about">Our Story</a>
+<a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/about">Impact</a>
+<a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/projects">Projects</a>
+<a className="text-[#4e6450] dark:text-[#8ca38d] font-semibold border-b-2 border-[#4e6450] transition-colors duration-500" href="/join">Join Us</a>
 </div>
-<button className="bg-primary text-on-primary px-8 py-3 rounded-full font-medium hover:opacity-90 transition-all duration-300">
+<a href="/join"><button className="bg-primary text-on-primary px-8 py-3 rounded-full font-medium hover:opacity-90 transition-all duration-300">
                 Partner With Us
-            </button>
+            </button></a>
 </nav>
 </header>
 <main className="pt-32">

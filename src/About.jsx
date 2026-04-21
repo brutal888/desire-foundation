@@ -16,14 +16,14 @@ export default function About() {
                 Desire Foundation
             </div>
 <div className="hidden md:flex items-center gap-10">
-<a className="text-[#4e6450] dark:text-[#8ca38d] font-semibold border-b-2 border-[#4e6450] font-['Noto_Serif'] tracking-tight transition-colors duration-500" href="/#">Our Story</a>
-<a className="text-[#5b5f63] dark:text-stone-400 font-['Noto_Serif'] tracking-tight hover:text-[#4e6450] transition-colors duration-500" href="/#">Impact</a>
-<a className="text-[#5b5f63] dark:text-stone-400 font-['Noto_Serif'] tracking-tight hover:text-[#4e6450] transition-colors duration-500" href="/#">Projects</a>
-<a className="text-[#5b5f63] dark:text-stone-400 font-['Noto_Serif'] tracking-tight hover:text-[#4e6450] transition-colors duration-500" href="/#">Join Us</a>
+<a className="text-[#4e6450] dark:text-[#8ca38d] font-semibold border-b-2 border-[#4e6450] font-['Noto_Serif'] tracking-tight transition-colors duration-500" href="/about">Our Story</a>
+<a className="text-[#5b5f63] dark:text-stone-400 font-['Noto_Serif'] tracking-tight hover:text-[#4e6450] transition-colors duration-500" href="/about">Impact</a>
+<a className="text-[#5b5f63] dark:text-stone-400 font-['Noto_Serif'] tracking-tight hover:text-[#4e6450] transition-colors duration-500" href="/projects">Projects</a>
+<a className="text-[#5b5f63] dark:text-stone-400 font-['Noto_Serif'] tracking-tight hover:text-[#4e6450] transition-colors duration-500" href="/join">Join Us</a>
 </div>
-<button className="bg-primary text-on-primary px-8 py-3 rounded-full font-label font-medium hover:opacity-90 transition-all duration-300">
+<a href="/join"><button className="bg-primary text-on-primary px-8 py-3 rounded-full font-label font-medium hover:opacity-90 transition-all duration-300">
                 Partner With Us
-            </button>
+            </button></a>
 </nav>
 </header>
 <main className="pt-32">
@@ -202,9 +202,9 @@ export default function About() {
                     We invite visionaries, designers, and cultural stewards to explore partnership opportunities that celebrate and sustain human craft.
                 </p>
 <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
-<button className="px-12 py-5 bg-primary text-on-primary rounded-full font-label font-bold text-lg hover:bg-opacity-90 transition-all duration-300 shadow-lg shadow-primary/20">
+<a href="/join"><button className="px-12 py-5 bg-primary text-on-primary rounded-full font-label font-bold text-lg hover:bg-opacity-90 transition-all duration-300 shadow-lg shadow-primary/20">
                         Inquire for Partnership
-                    </button>
+                    </button></a>
 <button className="px-12 py-5 border border-outline-variant text-on-surface rounded-full font-label font-bold text-lg hover:bg-surface-container-high transition-all duration-300">
                         View Current Projects
                     </button>
