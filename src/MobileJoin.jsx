@@ -8,7 +8,7 @@ export default function MobileJoin() {
       
 {/*  TopNavBar  */}
 <nav className="fixed top-0 w-full z-50 bg-[#f5ffc2]/70 backdrop-blur-xl flex justify-between items-center px-6 py-4 shadow-[0_12px_40px_rgba(24,30,0,0.06)]">
-<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-['Noto_Serif'] font-bold text-[#181e00] cursor-pointer select-none">Desire Foundation</div></a>
+<a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-['Noto_Serif'] font-bold text-[#181e00]" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
 <button className="material-symbols-outlined text-primary text-3xl">menu</button>
 </nav>
 <main className="pt-24 pb-12 px-6 space-y-12">
@@ -126,7 +126,7 @@ export default function MobileJoin() {
 {/*  Footer  */}
 <footer className="bg-[#eaf3b7] py-16 px-6 space-y-12">
 <div className="space-y-6">
-<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-['Noto_Serif'] text-xl text-[#181e00] font-bold cursor-pointer select-none">Desire Foundation</div></a>
+<a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-['Noto_Serif'] text-xl text-[#181e00] font-bold" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
 <p className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 leading-relaxed">
                 Dedicated to the preservation of ethereal heritage and the empowerment of global artisan communities.
             </p>

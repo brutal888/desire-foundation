@@ -12,7 +12,7 @@ export default function Join() {
 {/*  TopAppBar  */}
 <header className="fixed top-0 w-full z-50 bg-[#fbf9f4]/70 dark:bg-stone-950/70 backdrop-blur-xl no-border tonal-shift">
 <nav className="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
-<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-serif italic text-[#1b1c19] dark:text-[#fbf9f4] font-headline tracking-tight cursor-pointer select-none">Desire Foundation</div></a>
+<a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-serif italic text-[#1b1c19] dark:text-[#fbf9f4] font-headline tracking-tight" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
 <div className="hidden md:flex items-center gap-10 font-['Noto_Serif'] tracking-tight">
 <a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/about">Our Story</a>
 <a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/about">Impact</a>
@@ -202,7 +202,7 @@ export default function Join() {
 <footer className="w-full py-20 px-12 bg-[#f5f3ee] dark:bg-stone-900 border-t border-transparent tonal-shift">
 <div className="max-w-[1920px] mx-auto flex flex-col md:flex-row justify-between items-start gap-8">
 <div className="space-y-4">
-<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-lg font-serif text-[#1b1c19] dark:text-[#fbf9f4] font-headline cursor-pointer select-none">Desire Foundation</div></a>
+<a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-lg font-serif text-[#1b1c19] dark:text-[#fbf9f4] font-headline" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
 <p className="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-[#4e6450] dark:text-[#8ca38d] max-w-xs">
                     © Desire Foundation. Preserving the threads of history.
                 </p>
