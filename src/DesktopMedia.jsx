@@ -8,20 +8,20 @@ export default function DesktopMedia() {
     <div className="bg-background text-on-background font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
       
 {/*  */}
-<header className="bg-stone-50/70 dark:bg-stone-950/70 backdrop-blur-xl docked full-width top-0 z-50 fixed w-full no-border-tonal-shift-only">
-<div className="flex justify-between items-center w-full px-8 py-6 max-w-screen-2xl mx-auto">
-<a href="/" className="text-2xl font-serif italic text-emerald-900 dark:text-stone-100" style={{ cursor: "pointer", userSelect: "none" }}>Desire Foundation</a>
-<nav className="hidden md:flex items-center gap-8">
-<a className="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="/about">The Archive</a>
-<a className="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="/work">Collaborations</a>
-<a className="text-emerald-900 dark:text-emerald-100 border-b border-emerald-900/20 pb-1 font-sans uppercase tracking-widest text-[10px] transition-colors duration-500" href="/media">Media</a>
-<a className="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="/join">Heritage</a>
-</nav>
-<button className="bg-primary text-on-primary rounded-full px-8 py-3 text-sm font-medium transition-all duration-700 hover:bg-on-primary-fixed-variant hover:shadow-lg active:scale-95">
-                Begin Your Story
-            </button>
+<nav className="fixed top-0 z-50 w-full flex justify-between items-center px-12 py-4 bg-stone-50/70 dark:bg-stone-900/70 backdrop-blur-xl shadow-xl shadow-stone-200/20 dark:shadow-none reveal active">
+<a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
+<div className="hidden md:flex items-center space-x-8">
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-emerald-800 dark:text-emerald-200 border-b-2 border-emerald-800 dark:border-emerald-200 pb-1" href="/about">Our Story</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/media">Media</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/projects">Projects</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/join">Join Us</a></div>
 </div>
-</header>
+<div className="magnetic-wrap">
+<a href="/join"><button className="bg-primary text-on-primary rounded-full px-6 py-2 text-xs font-bold uppercase tracking-widest hover:opacity-80 transition-opacity duration-300">
+                Partner With Us
+            </button></a>
+</div>
+</nav>
 <main className="pt-32">
 {/*  */}
 <section className="relative h-[870px] flex items-center overflow-hidden bg-surface-container-low">

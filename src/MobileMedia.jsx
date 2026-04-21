@@ -8,15 +8,19 @@ export default function MobileMedia() {
     <div className="bg-background text-on-background font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
       
 {/*  */}
-<nav className="fixed top-0 left-0 right-0 z-50 bg-stone-50/70 backdrop-blur-xl flex justify-between items-center w-full px-8 py-6">
-<div className="text-2xl font-serif italic text-emerald-900">Desire Foundation</div>
-<div className="hidden md:flex gap-8">
-<span className="text-stone-500 font-sans uppercase tracking-widest text-[10px]">The Archive</span>
-<span className="text-stone-500 font-sans uppercase tracking-widest text-[10px]">Collaborations</span>
-<span className="text-emerald-900 border-b border-emerald-900/20 pb-1 font-sans uppercase tracking-widest text-[10px]">Media</span>
-<span className="text-stone-500 font-sans uppercase tracking-widest text-[10px]">Heritage</span>
+<nav className="fixed top-0 w-full z-50 bg-[#f5ffc2]/70 backdrop-blur-xl flex justify-between items-center px-6 py-4 md:px-12 md:py-6 shadow-[0_12px_40px_rgba(24,30,0,0.06)]">
+<a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-['Noto_Serif'] font-bold text-[#181e00] tracking-tight" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
+{/*  Mobile Navigation  */}
+<div className="flex items-center gap-4">
+<span className="material-symbols-outlined text-primary cursor-pointer md:hidden">menu</span>
 </div>
-<button className="hidden md:block bg-primary text-on-primary px-6 py-2 rounded-full text-xs font-medium tracking-wide">Begin Your Story</button>
+{/*  Desktop Navigation  */}
+<div className="hidden md:flex gap-8 items-center">
+<a className="text-[#ab1c6e] font-bold border-b-2 border-[#ab1c6e] font-['Noto_Serif'] tracking-tight" href="/about">Our Story</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/media">Media</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/work">Projects</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/join">Join Us</a>
+</div>
 </nav>
 <main className="pb-32 px-6 max-w-lg mx-auto pt-28">
 {/*  */}
@@ -120,24 +124,24 @@ export default function MobileMedia() {
 </footer>
 </main>
 {/*  */}
-<nav className="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 backdrop-blur-2xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)] rounded-t-3xl top-0">
-<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="/">
-<span className="material-symbols-outlined mb-1">auto_stories</span>
-<span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Archive</span>
+<div className="fixed bottom-0 w-full z-50 bg-[#f5ffc2]/90 backdrop-blur-xl border-t border-outline-variant flex justify-around items-center py-3 px-6 md:hidden">
+<a className="flex flex-col items-center gap-1 text-primary" href="/">
+<span className="material-symbols-outlined">home</span>
+<span className="font-label text-[10px] font-bold uppercase tracking-tighter">Home</span>
 </a>
-<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="/">
-<span className="material-symbols-outlined mb-1">group_work</span>
-<span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Partners</span>
+<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="/">
+<span className="material-symbols-outlined">auto_stories</span>
+<span className="font-label text-[10px] font-bold uppercase tracking-tighter">Media</span>
 </a>
-<a className="flex flex-col items-center justify-center bg-emerald-100/50 text-emerald-900 rounded-2xl px-5 py-2 active:scale-95 duration-500 ease-out" href="/">
-<span className="material-symbols-outlined mb-1" style={{"fontVariationSettings":"'FILL' 1"}}>theaters</span>
-<span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Media</span>
+<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="/">
+<span className="material-symbols-outlined">handshake</span>
+<span className="font-label text-[10px] font-bold uppercase tracking-tighter">Partner</span>
 </a>
-<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="/">
-<span className="material-symbols-outlined mb-1">history_edu</span>
-<span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Connect</span>
+<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="/">
+<span className="material-symbols-outlined">account_circle</span>
+<span className="font-label text-[10px] font-bold uppercase tracking-tighter">Join</span>
 </a>
-</nav>
+</div>
 
     </div>
   );
