@@ -8,7 +8,7 @@ export default function MobileHome() {
       
 {/*  TopNavBar  */}
 <nav className="fixed top-0 w-full z-50 bg-[#f5ffc2]/70 backdrop-blur-xl flex justify-between items-center px-6 py-4 md:px-12 md:py-6 shadow-[0_12px_40px_rgba(24,30,0,0.06)]">
-<div className="text-2xl font-['Noto_Serif'] font-bold text-[#181e00] tracking-tight">Desire Foundation</div>
+<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-['Noto_Serif'] font-bold text-[#181e00] tracking-tight cursor-pointer select-none">Desire Foundation</div></a>
 {/*  Mobile Navigation  */}
 <div className="flex items-center gap-4">
 <span className="material-symbols-outlined text-primary cursor-pointer md:hidden">menu</span>
@@ -150,7 +150,7 @@ export default function MobileHome() {
 <footer className="w-full py-16 px-6 md:px-12 bg-[#eaf3b7]">
 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
 <div className="md:col-span-1">
-<div className="font-['Noto_Serif'] text-lg text-[#181e00] font-bold mb-6">Desire Foundation</div>
+<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-['Noto_Serif'] text-lg text-[#181e00] font-bold mb-6 cursor-pointer select-none">Desire Foundation</div></a>
 <p className="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-[#181e00]/60 leading-relaxed">
                 Preserving human dignity through architectural philanthropy and systematic compassion.
             </p>

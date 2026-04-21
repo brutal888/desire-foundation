@@ -185,7 +185,7 @@ export default function Home() {
 {/*  Footer  */}
 <footer className="w-full py-20 px-8 md:px-24 grid grid-cols-1 md:grid-cols-4 gap-12 bg-stone-100 dark:bg-stone-950 text-stone-800 dark:text-stone-200 reveal">
 <div className="col-span-1 md:col-span-1">
-<a href="/" className="flex items-center gap-4 mb-8 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-12 w-auto" /><div className="font-serif text-3xl text-emerald-900 dark:text-emerald-100 cursor-pointer select-none">Desire Foundation</div></a>
+<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif text-3xl text-emerald-900 dark:text-emerald-100 cursor-pointer select-none">Desire Foundation</div></a>
 <p className="font-sans text-sm leading-relaxed text-stone-500 dark:text-stone-400">© 2024 Desire Foundation. Curating History Through Fine Textile Artistry.</p>
 </div>
 <div>

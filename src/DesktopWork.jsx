@@ -152,7 +152,7 @@ export default function Work() {
 {/*  Footer  */}
 <footer className="w-full py-20 px-8 md:px-24 grid grid-cols-1 md:grid-cols-4 gap-12 bg-stone-100 dark:bg-stone-950">
 <div className="md:col-span-1">
-<div className="font-serif text-3xl text-emerald-900 dark:text-emerald-100 mb-6">Desire Foundation</div>
+<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif text-3xl text-emerald-900 dark:text-emerald-100 mb-6 cursor-pointer select-none">Desire Foundation</div></a>
 <p className="text-stone-500 dark:text-stone-400 text-sm leading-relaxed font-sans">
                 Curating History Through Fine Textile Artistry. 
                 A global initiative dedicated to the preservation of tactile heritage and sustainable ecological growth.

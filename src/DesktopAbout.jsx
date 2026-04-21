@@ -12,9 +12,7 @@ export default function About() {
 {/*  TopAppBar  */}
 <header className="fixed top-0 w-full z-50 bg-[#fbf9f4]/70 dark:bg-stone-950/70 backdrop-blur-xl">
 <nav className="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
-<div className="text-2xl font-serif italic text-[#1b1c19] dark:text-[#fbf9f4] font-headline tracking-tight">
-                Desire Foundation
-            </div>
+<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-serif italic text-[#1b1c19] dark:text-[#fbf9f4] font-headline tracking-tight cursor-pointer select-none">Desire Foundation</div></a>
 <div className="hidden md:flex items-center gap-10">
 <a className="text-[#4e6450] dark:text-[#8ca38d] font-semibold border-b-2 border-[#4e6450] font-['Noto_Serif'] tracking-tight transition-colors duration-500" href="/about">Our Story</a>
 <a className="text-[#5b5f63] dark:text-stone-400 font-['Noto_Serif'] tracking-tight hover:text-[#4e6450] transition-colors duration-500" href="/about">Impact</a>
@@ -223,7 +221,7 @@ export default function About() {
 <footer className="w-full py-20 px-12 bg-[#f5f3ee] dark:bg-stone-900">
 <div className="flex flex-col md:flex-row justify-between items-start gap-8 max-w-[1920px] mx-auto">
 <div className="space-y-6">
-<div className="text-lg font-serif text-[#1b1c19] dark:text-[#fbf9f4] font-headline">Desire Foundation</div>
+<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-lg font-serif text-[#1b1c19] dark:text-[#fbf9f4] font-headline cursor-pointer select-none">Desire Foundation</div></a>
 <p className="max-w-xs text-[#5b5f63] dark:text-stone-400 font-['Plus_Jakarta_Sans'] text-sm tracking-wide">© Desire Foundation. Preserving the threads of history.</p>
 </div>
 <div className="grid grid-cols-2 gap-16">
