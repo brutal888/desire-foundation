@@ -22,10 +22,10 @@ export default function DesktopMedia() {
             </button>
 </div>
 </header>
-<main className="pt-24">
+<main className="pt-32">
 {/*  */}
 <section className="relative h-[870px] flex items-center overflow-hidden bg-surface-container-low">
-<div className="absolute inset-0 z-0 parallax-bg" data-alt="Close up of antique archival paper textures and vintage library books with soft natural light and dust motes" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBe_QfpVMziaGTfsyoSiS9FL-pFDe52CfzRGVJDCLaVCZIMsuyTQRXLhW0HQJoaUDi6t_nFyfg2p89d1owVUWAjefhh1o7n8eJu5nPYCRyAtwXO5_8OndOEpdAAKUphWfQN1JeYvzYKB_Hp4Y4143NO932WWWXboP_pHBidZb9fVSJ8fDybYix8aiC736vPD9zwUXOdDTehnxOcnUv2CC5TQ4dC2znD6W9lOVOJOJfdQu5BP7vKxAeumQ3_nuXfgXHC7NerBPtGPNak');">
+<div className="absolute inset-0 z-0 parallax-bg" data-alt="Close up of antique archival paper textures and vintage library books with soft natural light and dust motes" style={{"backgroundImage":"url('https"}}>
 <div className="absolute inset-0 bg-surface/80"></div>
 </div>
 <div className="relative z-10 max-w-7xl mx-auto px-8 w-full">
@@ -57,7 +57,7 @@ export default function DesktopMedia() {
 <span className="font-label text-sm uppercase tracking-widest text-outline">The Global Chronicle</span>
 </div>
 </div>
-<div className="flex flex-col justify-center reveal-on-scroll" style="animation-delay: 0.2s;">
+<div className="flex flex-col justify-center reveal-on-scroll" style={{"animationDelay":"0.2s"}}>
 <span className="text-primary font-medium tracking-widest uppercase text-xs mb-6 block">Featured Story</span>
 <h2 className="font-headline text-5xl text-on-surface mb-8 leading-tight">Empowering Artisans: The Cloth Bag Initiative</h2>
 <p className="font-body text-lg text-on-surface-variant mb-10 leading-relaxed">
@@ -112,7 +112,7 @@ export default function DesktopMedia() {
 </div>
 </div>
 {/*  */}
-<div className="group reveal-on-scroll" style="animation-delay: 0.2s;">
+<div className="group reveal-on-scroll" style={{"animationDelay":"0.2s"}}>
 <div className="bg-surface-container-lowest overflow-hidden transition-all duration-700 text-3d-tilt hover:shadow-xl">
 <div className="aspect-[16/10] overflow-hidden">
 <img alt="Person reading broadsheet newspaper" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A person in an elegant beige coat reading a large broadsheet newspaper in a clean, minimalist architectural space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnSOQJ9Ef_DsRyQLNFjmbErOCiqiUo5Cz19dupdnZxx0ZbzAI8_zJ04Mh7sboOOf5umevXFfLDm0EsbBNZjRN_xRX_vWD30FtFJHfi5OhSQh-5dR9SNpmS5FM1tyMYS7XAP5p778MopXh1Ki90dWH-ACIcd9u68AlOy8FtQo7Wr_yMfzXarbSeH6ZOPfS1Qen87fCvGuPOuCZ57aZxJlXDLfJO_4MUEKC1VkZVYqXF7JO8JybDJjETskWKq0ANoMvOO8whTlMM6YUA"/>
@@ -130,7 +130,7 @@ export default function DesktopMedia() {
 </div>
 </div>
 {/*  */}
-<div className="group reveal-on-scroll" style="animation-delay: 0.4s;">
+<div className="group reveal-on-scroll" style={{"animationDelay":"0.4s"}}>
 <div className="bg-surface-container-lowest overflow-hidden transition-all duration-700 text-3d-tilt hover:shadow-xl">
 <div className="aspect-[16/10] overflow-hidden">
 <img alt="Abstract media studio lighting" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Modern minimalist television studio set with soft sage green lighting and clean geometric shapes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdmr3Y_JkvRbhhQUh_A_rHH8b9XmrUnO3-9bA0d_asTe2frb2G7_nNMqSXQPJPFypK4gmHHSmu2-zltjC_F7y7mbCeGNdyQTpU1QssHXgHrBw5UrgNyYcP0EiCf6FCNn0pYx8RU8ZFHOshTx7zuGERwFVcUrRyo2EBHWydInN2SH2thlEDxL1MLPdBz9RVpxQLHMZPMZ5ppIefBiOLUOc72Xdm6yOPxxOlcMsNEkrRKrEGmA5J1QZeF4dL30q32UjrYTsR3SmLxleG"/>
@@ -251,7 +251,7 @@ export default function DesktopMedia() {
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Partners</span>
 </a>
 <a className="flex flex-col items-center justify-center bg-emerald-100/50 dark:bg-emerald-900/30 text-emerald-900 dark:text-emerald-50 rounded-2xl px-5 py-2" href="/">
-<span className="material-symbols-outlined mb-1" data-icon="theaters" style="font-variation-settings: 'FILL' 1;">theaters</span>
+<span className="material-symbols-outlined mb-1" data-icon="theaters" style={{"fontVariationSettings":"'FILL' 1"}}>theaters</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Media</span>
 </a>
 <a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="/">

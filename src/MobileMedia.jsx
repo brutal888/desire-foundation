@@ -51,7 +51,7 @@ export default function MobileMedia() {
 </div>
 </article>
 {/*  */}
-<article className="reveal-on-scroll card-tilt bg-surface-container-low p-6 rounded-3xl" style="animation-delay: 0.1s">
+<article className="reveal-on-scroll card-tilt bg-surface-container-low p-6 rounded-3xl" style={{"animationDelay":"0.1s"}}>
 <div className="flex flex-col gap-4">
 <span className="text-on-primary-fixed-variant text-[10px] uppercase tracking-[0.2em] font-bold">Artisanal Partner</span>
 <h2 className="font-serif text-2xl font-light text-on-surface">Weaving History: Desire Foundation Collaboration with UNESCO</h2>
@@ -65,7 +65,7 @@ export default function MobileMedia() {
 </div>
 </article>
 {/*  */}
-<article className="reveal-on-scroll card-tilt" style="animation-delay: 0.2s">
+<article className="reveal-on-scroll card-tilt" style={{"animationDelay":"0.2s"}}>
 <div className="grid grid-cols-5 gap-4">
 <div className="col-span-2 aspect-square rounded-2xl overflow-hidden shadow-sm">
 <img className="w-full h-full object-cover" data-alt="Artisan hands working on a traditional loom with olive green threads, warm natural sunlight filtering through a window" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDE4ohu38Qh1jAmtXaLUrTrRF602Z3awAPP6UzWPZ4ONsiXPoMyqs2LTr5YQUVFIjhAISrmST_DGarsCNJcB8G-zhrVh0RvIS611AJKFTx--U2YYEsYw2V7cmTpYsqnjYM18TMBzZUaaHj6vHPY3Dl-KTn5ZtMnd6DptPTF8KTv_uQ_BGtlGTapbFIF9Vt-4dzHcB_1pC0mR-bg0XeEcWo3ykfUSx3x9VBX-FHlds8jl0ZLX7VqcFwFCuiCFIpXHtb_MhEPKPqRQo9"/>
@@ -78,7 +78,7 @@ export default function MobileMedia() {
 </div>
 </article>
 {/*  */}
-<article className="reveal-on-scroll card-tilt bg-white p-6 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)]" style="animation-delay: 0.3s">
+<article className="reveal-on-scroll card-tilt bg-white p-6 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)]" style={{"animationDelay":"0.3s"}}>
 <div className="flex flex-col gap-4">
 <div className="flex items-center gap-3">
 <div className="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center">
@@ -130,7 +130,7 @@ export default function MobileMedia() {
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Partners</span>
 </a>
 <a className="flex flex-col items-center justify-center bg-emerald-100/50 text-emerald-900 rounded-2xl px-5 py-2 active:scale-95 duration-500 ease-out" href="/">
-<span className="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">theaters</span>
+<span className="material-symbols-outlined mb-1" style={{"fontVariationSettings":"'FILL' 1"}}>theaters</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Media</span>
 </a>
 <a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="/">
