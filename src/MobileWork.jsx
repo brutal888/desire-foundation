@@ -20,7 +20,7 @@ export default function MobileWork() {
 <button className="bg-primary text-on-primary px-6 py-2.5 rounded-full font-semibold hover:scale-[1.05] transition-transform duration-400">Donate Now</button>
 </nav>
 </header>
-<main className="pt-24 pb-12">
+<main className="pb-12 pt-28">
 {/*  Editorial Header Section  */}
 <section className="px-6 mb-12">
 <span className="font-label text-primary uppercase tracking-[0.2em] text-xs font-semibold mb-3 block">Portfolio of Purpose</span>
@@ -151,7 +151,7 @@ export default function MobileWork() {
 </div>
 </footer>
 {/*  Bottom Nav (Mobile Only)  */}
-<nav className="md:hidden fixed bottom-0 left-0 w-full bg-surface/90 backdrop-blur-xl flex justify-around items-center py-4 px-6 z-50 shadow-[0_-12px_40px_rgba(0,0,0,0.05)]">
+<nav className="md:hidden fixed bottom-0 left-0 w-full bg-surface/90 backdrop-blur-xl flex justify-around items-center py-4 px-6 z-50 shadow-[0_-12px_40px_rgba(0,0,0,0.05)] top-0">
 <a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="/">
 <span className="material-symbols-outlined text-2xl group-hover:text-primary">home</span>
 <span className="text-[10px] font-label font-bold uppercase tracking-widest">Home</span>

@@ -21,7 +21,7 @@ export default function MobileHome() {
 <a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/join">Join Us</a>
 </div>
 </nav>
-<main className="pt-24 overflow-x-hidden">
+<main className="overflow-x-hidden pt-28">
 {/*  Hero Section: Ethereal Archive Narrative  */}
 <section className="px-6 pb-16 md:px-12">
 <div className="relative w-full aspect-[4/5] rounded-xl overflow-hidden shadow-2xl mb-8 group">

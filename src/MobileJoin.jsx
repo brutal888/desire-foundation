@@ -11,7 +11,7 @@ export default function MobileJoin() {
 <a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-['Noto_Serif'] font-bold text-[#181e00]" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
 <button className="material-symbols-outlined text-primary text-3xl">menu</button>
 </nav>
-<main className="pt-24 pb-12 px-6 space-y-12">
+<main className="pb-12 px-6 space-y-12 pt-28">
 {/*  Hero Section  */}
 <header className="space-y-6">
 <h1 className="font-headline text-4xl font-bold leading-tight tracking-tight text-on-background">Become a part of the legacy.</h1>

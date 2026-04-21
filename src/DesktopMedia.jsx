@@ -241,7 +241,7 @@ export default function DesktopMedia() {
 </div>
 </footer>
 {/*  */}
-<nav className="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-2xl rounded-t-3xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)]">
+<nav className="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-2xl rounded-t-3xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)] top-0">
 <a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="/">
 <span className="material-symbols-outlined mb-1" data-icon="auto_stories">auto_stories</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Archive</span>

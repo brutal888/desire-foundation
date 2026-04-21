@@ -18,7 +18,7 @@ export default function MobileMedia() {
 </div>
 <button className="hidden md:block bg-primary text-on-primary px-6 py-2 rounded-full text-xs font-medium tracking-wide">Begin Your Story</button>
 </nav>
-<main className="pt-28 pb-32 px-6 max-w-lg mx-auto">
+<main className="pb-32 px-6 max-w-lg mx-auto pt-28">
 {/*  */}
 <header className="mb-16 reveal-on-scroll">
 <div className="inline-block px-3 py-1 bg-primary-fixed text-on-primary-fixed-variant text-[10px] tracking-[0.2em] uppercase font-bold mb-6 rounded-full">
@@ -120,7 +120,7 @@ export default function MobileMedia() {
 </footer>
 </main>
 {/*  */}
-<nav className="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 backdrop-blur-2xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)] rounded-t-3xl">
+<nav className="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 backdrop-blur-2xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)] rounded-t-3xl top-0">
 <a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="/">
 <span className="material-symbols-outlined mb-1">auto_stories</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Archive</span>

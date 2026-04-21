@@ -22,7 +22,7 @@ export default function Work() {
             Partner With Us
         </button></a>
 </header>
-<main className="pt-40 pb-24">
+<main className="pb-24 pt-32">
 {/*  Hero Section  */}
 <section className="max-w-7xl mx-auto px-8 md:px-12 mb-32">
 <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-end">

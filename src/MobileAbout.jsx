@@ -11,7 +11,7 @@ export default function MobileAbout() {
 <span className="text-xl font-headline font-bold text-[#181e00]">Desire Foundation</span>
 <button className="text-primary material-symbols-outlined p-2">menu</button>
 </nav>
-<main className="pt-24 pb-12">
+<main className="pb-12 pt-28">
 {/*  Hero Section  */}
 <section className="px-6 mb-16">
 <span className="font-label text-primary font-semibold tracking-widest text-xs uppercase mb-4 block">The Ethereal Archive</span>
@@ -173,7 +173,7 @@ export default function MobileAbout() {
 </div>
 </footer>
 {/*  Bottom Navigation (Mobile Shell)  */}
-<nav className="md:hidden fixed bottom-0 w-full z-50 bg-[#f5ffc2]/90 backdrop-blur-2xl px-8 py-4 flex justify-between items-center shadow-[0_-8px_30px_rgba(24,30,0,0.04)]">
+<nav className="md:hidden fixed bottom-0 w-full z-50 bg-[#f5ffc2]/90 backdrop-blur-2xl px-8 py-4 flex justify-between items-center shadow-[0_-8px_30px_rgba(24,30,0,0.04)] top-0">
 <div className="flex flex-col items-center gap-1 text-[#181e00]/60">
 <span className="material-symbols-outlined">home</span>
 <span className="text-[10px] font-label font-bold uppercase tracking-tighter">Home</span>
