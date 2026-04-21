@@ -14,7 +14,7 @@ export default function Home() {
 
 {/*  Top Navigation Bar  */}
 <nav className="sticky top-0 z-50 w-full flex justify-between items-center px-12 py-4 bg-stone-50/70 dark:bg-stone-900/70 backdrop-blur-xl shadow-xl shadow-stone-200/20 dark:shadow-none reveal active">
-<a href="/" className="flex items-center gap-3"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50">Desire Foundation</div></a>
+<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50 cursor-pointer select-none">Desire Foundation</div></a>
 <div className="hidden md:flex items-center space-x-8">
 <div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-emerald-800 dark:text-emerald-200 border-b-2 border-emerald-800 dark:border-emerald-200 pb-1" href="/about">Our Story</a></div>
 <div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/about">Impact</a></div>
@@ -185,7 +185,7 @@ export default function Home() {
 {/*  Footer  */}
 <footer className="w-full py-20 px-8 md:px-24 grid grid-cols-1 md:grid-cols-4 gap-12 bg-stone-100 dark:bg-stone-950 text-stone-800 dark:text-stone-200 reveal">
 <div className="col-span-1 md:col-span-1">
-<a href="/" className="flex items-center gap-4 mb-8"><img src="/logo.png" alt="Desire Foundation Logo" className="h-12 w-auto" /><div className="font-serif text-3xl text-emerald-900 dark:text-emerald-100">Desire Foundation</div></a>
+<a href="/" className="flex items-center gap-4 mb-8 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-12 w-auto" /><div className="font-serif text-3xl text-emerald-900 dark:text-emerald-100 cursor-pointer select-none">Desire Foundation</div></a>
 <p className="font-sans text-sm leading-relaxed text-stone-500 dark:text-stone-400">© 2024 Desire Foundation. Curating History Through Fine Textile Artistry.</p>
 </div>
 <div>

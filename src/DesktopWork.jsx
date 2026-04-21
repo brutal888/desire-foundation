@@ -11,7 +11,7 @@ export default function Work() {
       
 {/*  TopNavBar  */}
 <header className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-12 py-4 rounded-full mt-6 mx-auto max-w-7xl bg-stone-50/70 dark:bg-stone-900/70 backdrop-blur-xl shadow-xl shadow-stone-200/20 dark:shadow-none transition-opacity duration-300">
-<a href="/" className="flex items-center gap-3"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50">Desire Foundation</div></a>
+<a href="/" className="flex items-center gap-3 cursor-pointer"><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50 cursor-pointer select-none">Desire Foundation</div></a>
 <nav className="hidden md:flex items-center gap-8">
 <a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/about">Our Story</a>
 <a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/about">Impact</a>
