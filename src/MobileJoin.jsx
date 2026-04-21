@@ -7,9 +7,19 @@ export default function MobileJoin() {
     <>
       
 {/*  TopNavBar  */}
-<nav className="fixed top-0 w-full z-50 bg-[#f5ffc2]/70 backdrop-blur-xl flex justify-between items-center px-6 py-4 shadow-[0_12px_40px_rgba(24,30,0,0.06)]">
-<a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-['Noto_Serif'] font-bold text-[#181e00]" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
-<button className="material-symbols-outlined text-primary text-3xl">menu</button>
+<nav className="fixed top-0 w-full z-50 bg-[#f5ffc2]/70 backdrop-blur-xl flex justify-between items-center px-6 py-4 md:px-12 md:py-6 shadow-[0_12px_40px_rgba(24,30,0,0.06)]">
+<a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-['Noto_Serif'] font-bold text-[#181e00] tracking-tight" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
+{/*  Mobile Navigation  */}
+<div className="flex items-center gap-4">
+<span className="material-symbols-outlined text-primary cursor-pointer md:hidden">menu</span>
+</div>
+{/*  Desktop Navigation  */}
+<div className="hidden md:flex gap-8 items-center">
+<a className="text-[#ab1c6e] font-bold border-b-2 border-[#ab1c6e] font-['Noto_Serif'] tracking-tight" href="/about">Our Story</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/media">Media</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/work">Projects</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/join">Join Us</a>
+</div>
 </nav>
 <main className="pb-12 px-6 space-y-12 pt-28">
 {/*  Hero Section  */}

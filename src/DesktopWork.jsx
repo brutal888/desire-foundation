@@ -10,19 +10,25 @@ export default function Work() {
       
       
 {/*  TopNavBar  */}
-<header className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-12 py-4 rounded-full mt-6 mx-auto max-w-7xl bg-stone-50/70 dark:bg-stone-900/70 backdrop-blur-xl shadow-xl shadow-stone-200/20 dark:shadow-none transition-opacity duration-300">
+<nav className="fixed top-0 z-50 w-full flex justify-between items-center px-12 py-4 bg-stone-50/70 dark:bg-stone-900/70 backdrop-blur-xl shadow-xl shadow-stone-200/20 dark:shadow-none reveal active">
 <a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
-<nav className="hidden md:flex items-center gap-8">
-<a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/about">Our Story</a>
-<a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/media">Media</a>
-<a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/projects">Projects</a>
-<a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/join">Join Us</a>
+<div className="hidden md:flex items-center space-x-8">
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/about">Our Story</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/media">Media</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/projects">Projects</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/join">Join Us</a></div>
+</div>
+<div className="magnetic-wrap">
+<a href="/join"><button className="bg-primary text-on-primary rounded-full px-6 py-2 text-xs font-bold uppercase tracking-widest hover:opacity-80 transition-opacity duration-300">
+                Partner With Us
+            </button></a>
+</div>
 </nav>
 <a href="/join"><button className="bg-primary text-on-primary px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase hover:opacity-80 transition-opacity duration-300">
             Partner With Us
         </button></a>
 </header>
-<main className="pb-24 pt-32">
+<main className="pb-24 pt-48">
 {/*  Hero Section  */}
 <section className="max-w-7xl mx-auto px-8 md:px-12 mb-32">
 <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-end">

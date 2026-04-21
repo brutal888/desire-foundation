@@ -7,20 +7,22 @@ export default function MobileWork() {
     <>
       
 {/*  Top Navigation Bar  */}
-<header className="fixed top-0 w-full z-50 glass-header shadow-[0_12px_40px_rgba(24,30,0,0.06)] px-6 py-4 flex justify-between items-center md:px-12 md:py-6">
-<h1 className="text-xl md:text-2xl font-headline font-bold text-on-background">Desire Foundation</h1>
-<button className="md:hidden text-primary">
-<span className="material-symbols-outlined text-3xl">menu</span>
-</button>
-<nav className="hidden md:flex gap-8 items-center">
-<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="/about">Our Story</a>
-<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="/media">Media</a>
-<a className="text-primary font-bold border-b-2 border-primary" href="/work">Projects</a>
-<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="/join">Join Us</a>
-<button className="bg-primary text-on-primary px-6 py-2.5 rounded-full font-semibold hover:scale-[1.05] transition-transform duration-400">Donate Now</button>
+<nav className="fixed top-0 w-full z-50 bg-[#f5ffc2]/70 backdrop-blur-xl flex justify-between items-center px-6 py-4 md:px-12 md:py-6 shadow-[0_12px_40px_rgba(24,30,0,0.06)]">
+<a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-['Noto_Serif'] font-bold text-[#181e00] tracking-tight" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
+{/*  Mobile Navigation  */}
+<div className="flex items-center gap-4">
+<span className="material-symbols-outlined text-primary cursor-pointer md:hidden">menu</span>
+</div>
+{/*  Desktop Navigation  */}
+<div className="hidden md:flex gap-8 items-center">
+<a className="text-[#ab1c6e] font-bold border-b-2 border-[#ab1c6e] font-['Noto_Serif'] tracking-tight" href="/about">Our Story</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/media">Media</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/work">Projects</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/join">Join Us</a>
+</div>
 </nav>
 </header>
-<main className="pb-12 pt-28">
+<main className="pb-12 pt-48">
 {/*  Editorial Header Section  */}
 <section className="px-6 mb-12">
 <span className="font-label text-primary uppercase tracking-[0.2em] text-xs font-semibold mb-3 block">Portfolio of Purpose</span>
@@ -151,24 +153,24 @@ export default function MobileWork() {
 </div>
 </footer>
 {/*  Bottom Nav (Mobile Only)  */}
-<nav className="md:hidden fixed bottom-0 left-0 w-full bg-surface/90 backdrop-blur-xl flex justify-around items-center py-4 px-6 z-50 shadow-[0_-12px_40px_rgba(0,0,0,0.05)] top-0">
-<a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="/">
-<span className="material-symbols-outlined text-2xl group-hover:text-primary">home</span>
-<span className="text-[10px] font-label font-bold uppercase tracking-widest">Home</span>
-</a>
+<div className="fixed bottom-0 w-full z-50 bg-[#f5ffc2]/90 backdrop-blur-xl border-t border-outline-variant flex justify-around items-center py-3 px-6 md:hidden">
 <a className="flex flex-col items-center gap-1 text-primary" href="/">
-<span className="material-symbols-outlined text-2xl font-variation-settings: 'FILL' 1;">work</span>
-<span className="text-[10px] font-label font-bold uppercase tracking-widest">Projects</span>
+<span className="material-symbols-outlined">home</span>
+<span className="font-label text-[10px] font-bold uppercase tracking-tighter">Home</span>
 </a>
-<a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="/">
-<span className="material-symbols-outlined text-2xl group-hover:text-primary">volunteer_activism</span>
-<span className="text-[10px] font-label font-bold uppercase tracking-widest">Media</span>
+<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="/">
+<span className="material-symbols-outlined">auto_stories</span>
+<span className="font-label text-[10px] font-bold uppercase tracking-tighter">Media</span>
 </a>
-<a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="/">
-<span className="material-symbols-outlined text-2xl group-hover:text-primary">person</span>
-<span className="text-[10px] font-label font-bold uppercase tracking-widest">Profile</span>
+<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="/">
+<span className="material-symbols-outlined">handshake</span>
+<span className="font-label text-[10px] font-bold uppercase tracking-tighter">Partner</span>
 </a>
-</nav>
+<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="/">
+<span className="material-symbols-outlined">account_circle</span>
+<span className="font-label text-[10px] font-bold uppercase tracking-tighter">Join</span>
+</a>
+</div>
 
     </>
   );
