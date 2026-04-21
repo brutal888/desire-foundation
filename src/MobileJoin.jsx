@@ -134,15 +134,15 @@ export default function MobileJoin() {
 <div className="grid grid-cols-2 gap-8">
 <div className="flex flex-col gap-4">
 <span className="font-bold text-xs uppercase tracking-widest text-[#ab1c6e]">Navigation</span>
-<a className="text-sm font-medium text-[#181e00]/80" href="#">Our Story</a>
-<a className="text-sm font-medium text-[#181e00]/80" href="#">Media</a>
-<a className="text-sm font-medium text-[#ab1c6e] font-bold" href="#">Join Us</a>
+<a className="text-sm font-medium text-[#181e00]/80" href="/about">Our Story</a>
+<a className="text-sm font-medium text-[#181e00]/80" href="/media">Media</a>
+<a className="text-sm font-medium text-[#ab1c6e] font-bold" href="/join">Join Us</a>
 </div>
 <div className="flex flex-col gap-4">
 <span className="font-bold text-xs uppercase tracking-widest text-[#ab1c6e]">Legal</span>
-<a className="text-sm font-medium text-[#181e00]/80" href="#">Privacy Policy</a>
-<a className="text-sm font-medium text-[#181e00]/80" href="#">Annual Report</a>
-<a className="text-sm font-medium text-[#181e00]/80" href="#">Careers</a>
+<a className="text-sm font-medium text-[#181e00]/80" href="/">Privacy Policy</a>
+<a className="text-sm font-medium text-[#181e00]/80" href="/">Annual Report</a>
+<a className="text-sm font-medium text-[#181e00]/80" href="/">Careers</a>
 </div>
 </div>
 <div className="pt-8 border-t border-black/5 text-xs text-[#181e00]/40 font-['Plus_Jakarta_Sans'] tracking-wide">
@@ -152,16 +152,16 @@ export default function MobileJoin() {
 {/*  Mobile Bottom Navigation Shell (Contextual)  */}
 <div className="md:hidden fixed bottom-6 left-6 right-6 z-50">
 <div className="bg-[#181e00]/90 backdrop-blur-2xl rounded-full px-8 py-4 flex justify-between items-center shadow-2xl">
-<a className="text-white/60 flex flex-col items-center gap-1" href="#">
+<a className="text-white/60 flex flex-col items-center gap-1" href="/">
 <span className="material-symbols-outlined text-2xl" data-icon="home">home</span>
 </a>
-<a className="text-white/60 flex flex-col items-center gap-1" href="#">
+<a className="text-white/60 flex flex-col items-center gap-1" href="/">
 <span className="material-symbols-outlined text-2xl" data-icon="auto_stories">auto_stories</span>
 </a>
-<a className="text-primary flex flex-col items-center gap-1" href="#">
+<a className="text-primary flex flex-col items-center gap-1" href="/">
 <span className="material-symbols-outlined text-2xl" data-icon="favorite" data-weight="fill">favorite</span>
 </a>
-<a className="text-white/60 flex flex-col items-center gap-1" href="#">
+<a className="text-white/60 flex flex-col items-center gap-1" href="/">
 <span className="material-symbols-outlined text-2xl" data-icon="person">person</span>
 </a>
 </div>

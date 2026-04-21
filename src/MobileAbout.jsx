@@ -144,19 +144,19 @@ export default function MobileAbout() {
 <div className="space-y-4">
 <h4 className="font-label text-xs uppercase font-bold text-on-surface opacity-60 tracking-widest">Foundation</h4>
 <nav className="flex flex-col gap-3">
-<a className="text-sm font-medium hover:text-primary transition-colors" href="#">Our Story</a>
-<a className="text-sm font-medium hover:text-primary transition-colors" href="#">Media</a>
-<a className="text-sm font-medium hover:text-primary transition-colors" href="#">Projects</a>
-<a className="text-sm font-medium hover:text-primary transition-colors" href="#">Join Us</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="/about">Our Story</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="/media">Media</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="/work">Projects</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="/join">Join Us</a>
 </nav>
 </div>
 <div className="space-y-4">
 <h4 className="font-label text-xs uppercase font-bold text-on-surface opacity-60 tracking-widest">Legal</h4>
 <nav className="flex flex-col gap-3">
-<a className="text-sm font-medium hover:text-primary transition-colors" href="#">Privacy Policy</a>
-<a className="text-sm font-medium hover:text-primary transition-colors" href="#">Annual Report</a>
-<a className="text-sm font-medium hover:text-primary transition-colors" href="#">Contact Us</a>
-<a className="text-sm font-medium hover:text-primary transition-colors" href="#">Careers</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="/">Privacy Policy</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="/">Annual Report</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="/">Contact Us</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="/">Careers</a>
 </nav>
 </div>
 </div>

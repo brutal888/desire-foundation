@@ -13,10 +13,10 @@ export default function MobileWork() {
 <span className="material-symbols-outlined text-3xl">menu</span>
 </button>
 <nav className="hidden md:flex gap-8 items-center">
-<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="#">Our Story</a>
-<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="#">Media</a>
-<a className="text-primary font-bold border-b-2 border-primary" href="#">Projects</a>
-<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="#">Join Us</a>
+<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="/about">Our Story</a>
+<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="/media">Media</a>
+<a className="text-primary font-bold border-b-2 border-primary" href="/work">Projects</a>
+<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="/join">Join Us</a>
 <button className="bg-primary text-on-primary px-6 py-2.5 rounded-full font-semibold hover:scale-[1.05] transition-transform duration-400">Donate Now</button>
 </nav>
 </header>
@@ -136,13 +136,13 @@ export default function MobileWork() {
 <div className="grid grid-cols-2 gap-8">
 <div className="flex flex-col gap-4">
 <h3 className="font-label text-[10px] uppercase tracking-widest text-primary font-bold">Resources</h3>
-<a className="text-on-surface/60 text-sm hover:text-primary transition-all" href="#">Privacy Policy</a>
-<a className="text-on-surface/60 text-sm hover:text-primary transition-all" href="#">Annual Report</a>
+<a className="text-on-surface/60 text-sm hover:text-primary transition-all" href="/">Privacy Policy</a>
+<a className="text-on-surface/60 text-sm hover:text-primary transition-all" href="/">Annual Report</a>
 </div>
 <div className="flex flex-col gap-4">
 <h3 className="font-label text-[10px] uppercase tracking-widest text-primary font-bold">Company</h3>
-<a className="text-on-surface/60 text-sm hover:text-primary transition-all" href="#">Contact Us</a>
-<a className="text-on-surface/60 text-sm hover:text-primary transition-all" href="#">Careers</a>
+<a className="text-on-surface/60 text-sm hover:text-primary transition-all" href="/">Contact Us</a>
+<a className="text-on-surface/60 text-sm hover:text-primary transition-all" href="/">Careers</a>
 </div>
 </div>
 <div className="pt-8 border-t border-outline-variant/10">
@@ -152,19 +152,19 @@ export default function MobileWork() {
 </footer>
 {/*  Bottom Nav (Mobile Only)  */}
 <nav className="md:hidden fixed bottom-0 left-0 w-full bg-surface/90 backdrop-blur-xl flex justify-around items-center py-4 px-6 z-50 shadow-[0_-12px_40px_rgba(0,0,0,0.05)]">
-<a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="#">
+<a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="/">
 <span className="material-symbols-outlined text-2xl group-hover:text-primary">home</span>
 <span className="text-[10px] font-label font-bold uppercase tracking-widest">Home</span>
 </a>
-<a className="flex flex-col items-center gap-1 text-primary" href="#">
+<a className="flex flex-col items-center gap-1 text-primary" href="/">
 <span className="material-symbols-outlined text-2xl font-variation-settings: 'FILL' 1;">work</span>
 <span className="text-[10px] font-label font-bold uppercase tracking-widest">Projects</span>
 </a>
-<a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="#">
+<a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="/">
 <span className="material-symbols-outlined text-2xl group-hover:text-primary">volunteer_activism</span>
 <span className="text-[10px] font-label font-bold uppercase tracking-widest">Media</span>
 </a>
-<a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="#">
+<a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="/">
 <span className="material-symbols-outlined text-2xl group-hover:text-primary">person</span>
 <span className="text-[10px] font-label font-bold uppercase tracking-widest">Profile</span>
 </a>

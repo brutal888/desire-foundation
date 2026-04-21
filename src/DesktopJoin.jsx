@@ -15,7 +15,7 @@ export default function Join() {
 <a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="text-2xl font-serif italic text-[#1b1c19] dark:text-[#fbf9f4] font-headline tracking-tight" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
 <div className="hidden md:flex items-center gap-10 font-['Noto_Serif'] tracking-tight">
 <a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/about">Our Story</a>
-<a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/about">Media</a>
+<a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/media">Media</a>
 <a className="text-[#5b5f63] dark:text-stone-400 hover:text-[#4e6450] transition-colors duration-500" href="/projects">Projects</a>
 <a className="text-[#4e6450] dark:text-[#8ca38d] font-semibold border-b-2 border-[#4e6450] transition-colors duration-500" href="/join">Join Us</a>
 </div>

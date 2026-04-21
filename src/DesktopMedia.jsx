@@ -10,12 +10,12 @@ export default function DesktopMedia() {
 <!-- TopAppBar -->
 <header className="bg-stone-50/70 dark:bg-stone-950/70 backdrop-blur-xl docked full-width top-0 z-50 fixed w-full no-border-tonal-shift-only">
 <div className="flex justify-between items-center w-full px-8 py-6 max-w-screen-2xl mx-auto">
-<div className="text-2xl font-serif italic text-emerald-900 dark:text-stone-100">Desire Foundation</div>
+<a href="/" className="text-2xl font-serif italic text-emerald-900 dark:text-stone-100" style={{ cursor: "pointer", userSelect: "none" }}>Desire Foundation</a>
 <nav className="hidden md:flex items-center gap-8">
-<a className="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="#">The Archive</a>
-<a className="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="#">Collaborations</a>
-<a className="text-emerald-900 dark:text-emerald-100 border-b border-emerald-900/20 pb-1 font-sans uppercase tracking-widest text-[10px] transition-colors duration-500" href="#">Media</a>
-<a className="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="#">Heritage</a>
+<a className="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="/about">The Archive</a>
+<a className="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="/work">Collaborations</a>
+<a className="text-emerald-900 dark:text-emerald-100 border-b border-emerald-900/20 pb-1 font-sans uppercase tracking-widest text-[10px] transition-colors duration-500" href="/media">Media</a>
+<a className="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="/join">Heritage</a>
 </nav>
 <button className="bg-primary text-on-primary rounded-full px-8 py-3 text-sm font-medium transition-all duration-700 hover:bg-on-primary-fixed-variant hover:shadow-lg active:scale-95">
                 Begin Your Story
@@ -105,7 +105,7 @@ export default function DesktopMedia() {
 <span className="font-label text-[10px] text-outline">Oct 2024</span>
 </div>
 <h3 className="font-headline text-xl mb-6 group-hover:text-primary transition-colors">Weaving the Future: Sustainable Archives</h3>
-<a className="text-tertiary font-label text-xs uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+<a className="text-tertiary font-label text-xs uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="/">
                                     Read Article <span className="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
 </a>
 </div>
@@ -123,7 +123,7 @@ export default function DesktopMedia() {
 <span className="font-label text-[10px] text-outline">Sept 2024</span>
 </div>
 <h3 className="font-headline text-xl mb-6 group-hover:text-primary transition-colors">The Digital Curators of the East</h3>
-<a className="text-tertiary font-label text-xs uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+<a className="text-tertiary font-label text-xs uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="/">
                                     Read Article <span className="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
 </a>
 </div>
@@ -141,7 +141,7 @@ export default function DesktopMedia() {
 <span className="font-label text-[10px] text-outline">Aug 2024</span>
 </div>
 <h3 className="font-headline text-xl mb-6 group-hover:text-primary transition-colors">Bridging Generations Through Textile</h3>
-<a className="text-tertiary font-label text-xs uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+<a className="text-tertiary font-label text-xs uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="/">
                                     Watch Feature <span className="material-symbols-outlined text-sm" data-icon="play_circle">play_circle</span>
 </a>
 </div>
@@ -227,34 +227,34 @@ export default function DesktopMedia() {
 <div className="grid grid-cols-2 gap-8">
 <div className="flex flex-col gap-4">
 <span className="font-label text-[10px] uppercase tracking-widest text-primary mb-2">Explore</span>
-<a className="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="#">The Archive</a>
-<a className="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="#">Collaborations</a>
-<a className="text-emerald-800 underline decoration-emerald-800/30" href="#">Media</a>
+<a className="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="/about">The Archive</a>
+<a className="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="/work">Collaborations</a>
+<a className="text-emerald-800 underline decoration-emerald-800/30" href="/media">Media</a>
 </div>
 <div className="flex flex-col gap-4">
 <span className="font-label text-[10px] uppercase tracking-widest text-primary mb-2">Heritage</span>
-<a className="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="#">Artisanal Partnership</a>
-<a className="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="#">Press Inquiry</a>
-<a className="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="#">Ethics of Memory</a>
+<a className="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="/join">Artisanal Partnership</a>
+<a className="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="/">Press Inquiry</a>
+<a className="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="/">Ethics of Memory</a>
 </div>
 </div>
 </div>
 </footer>
 <!-- BottomNavBar (Mobile Only) -->
 <nav className="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-2xl rounded-t-3xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)]">
-<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="#">
+<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="/">
 <span className="material-symbols-outlined mb-1" data-icon="auto_stories">auto_stories</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Archive</span>
 </a>
-<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="#">
+<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="/">
 <span className="material-symbols-outlined mb-1" data-icon="group_work">group_work</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Partners</span>
 </a>
-<a className="flex flex-col items-center justify-center bg-emerald-100/50 dark:bg-emerald-900/30 text-emerald-900 dark:text-emerald-50 rounded-2xl px-5 py-2" href="#">
+<a className="flex flex-col items-center justify-center bg-emerald-100/50 dark:bg-emerald-900/30 text-emerald-900 dark:text-emerald-50 rounded-2xl px-5 py-2" href="/">
 <span className="material-symbols-outlined mb-1" data-icon="theaters" style="font-variation-settings: 'FILL' 1;">theaters</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Media</span>
 </a>
-<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="#">
+<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="/">
 <span className="material-symbols-outlined mb-1" data-icon="history_edu">history_edu</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Connect</span>
 </a>

@@ -45,7 +45,7 @@ export default function MobileMedia() {
 </div>
 <div className="flex justify-between items-center">
 <span className="text-on-surface-variant text-xs font-medium uppercase tracking-widest">October 24, 2024</span>
-<a className="text-tertiary font-medium text-sm flex items-center gap-1" href="#">
+<a className="text-tertiary font-medium text-sm flex items-center gap-1" href="/">
                         Read Story <span className="material-symbols-outlined text-sm">arrow_forward</span>
 </a>
 </div>
@@ -90,7 +90,7 @@ export default function MobileMedia() {
 <p className="text-on-surface-variant text-sm leading-relaxed">
                         An immersive visual experience capturing the rhythmic sounds and textures of the heritage workshops.
                     </p>
-<a className="text-primary font-bold text-xs uppercase tracking-widest flex items-center gap-2 mt-2" href="#">
+<a className="text-primary font-bold text-xs uppercase tracking-widest flex items-center gap-2 mt-2" href="/">
                         Watch Feature <span className="material-symbols-outlined text-sm">open_in_new</span>
 </a>
 </div>
@@ -121,19 +121,19 @@ export default function MobileMedia() {
 </main>
 <!-- Bottom Navigation -->
 <nav className="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 backdrop-blur-2xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)] rounded-t-3xl">
-<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="#">
+<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="/">
 <span className="material-symbols-outlined mb-1">auto_stories</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Archive</span>
 </a>
-<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="#">
+<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="/">
 <span className="material-symbols-outlined mb-1">group_work</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Partners</span>
 </a>
-<a className="flex flex-col items-center justify-center bg-emerald-100/50 text-emerald-900 rounded-2xl px-5 py-2 active:scale-95 duration-500 ease-out" href="#">
+<a className="flex flex-col items-center justify-center bg-emerald-100/50 text-emerald-900 rounded-2xl px-5 py-2 active:scale-95 duration-500 ease-out" href="/">
 <span className="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">theaters</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Media</span>
 </a>
-<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="#">
+<a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="/">
 <span className="material-symbols-outlined mb-1">history_edu</span>
 <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Connect</span>
 </a>

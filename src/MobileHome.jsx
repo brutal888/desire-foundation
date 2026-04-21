@@ -15,10 +15,10 @@ export default function MobileHome() {
 </div>
 {/*  Desktop Navigation  */}
 <div className="hidden md:flex gap-8 items-center">
-<a className="text-[#ab1c6e] font-bold border-b-2 border-[#ab1c6e] font-['Noto_Serif'] tracking-tight" href="#">Our Story</a>
-<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="#">Media</a>
-<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="#">Projects</a>
-<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="#">Join Us</a>
+<a className="text-[#ab1c6e] font-bold border-b-2 border-[#ab1c6e] font-['Noto_Serif'] tracking-tight" href="/about">Our Story</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/media">Media</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/work">Projects</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/join">Join Us</a>
 </div>
 </nav>
 <main className="pt-24 overflow-x-hidden">
@@ -158,15 +158,15 @@ export default function MobileHome() {
 <div className="grid grid-cols-2 col-span-2 gap-8 md:gap-12">
 <div className="flex flex-col gap-4">
 <h5 className="font-label font-bold text-xs uppercase tracking-widest text-secondary">Initiatives</h5>
-<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="#">Annual Report</a>
-<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="#">Projects</a>
-<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="#">Our Story</a>
+<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="/">Annual Report</a>
+<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="/work">Projects</a>
+<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="/about">Our Story</a>
 </div>
 <div className="flex flex-col gap-4">
 <h5 className="font-label font-bold text-xs uppercase tracking-widest text-secondary">Organization</h5>
-<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="#">Privacy Policy</a>
-<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="#">Careers</a>
-<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="#">Contact Us</a>
+<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="/">Privacy Policy</a>
+<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="/">Careers</a>
+<a className="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 hover:text-[#ab1c6e] underline-offset-4 hover:underline transition-all" href="/">Contact Us</a>
 </div>
 </div>
 <div className="flex flex-col gap-6 items-start">
@@ -183,19 +183,19 @@ export default function MobileHome() {
 </footer>
 {/*  BottomNavBar for Mobile  */}
 <div className="fixed bottom-0 w-full z-50 bg-[#f5ffc2]/90 backdrop-blur-xl border-t border-outline-variant flex justify-around items-center py-3 px-6 md:hidden">
-<a className="flex flex-col items-center gap-1 text-primary" href="#">
+<a className="flex flex-col items-center gap-1 text-primary" href="/">
 <span className="material-symbols-outlined">home</span>
 <span className="font-label text-[10px] font-bold uppercase tracking-tighter">Home</span>
 </a>
-<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="#">
+<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="/">
 <span className="material-symbols-outlined">auto_stories</span>
 <span className="font-label text-[10px] font-bold uppercase tracking-tighter">Media</span>
 </a>
-<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="#">
+<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="/">
 <span className="material-symbols-outlined">handshake</span>
 <span className="font-label text-[10px] font-bold uppercase tracking-tighter">Partner</span>
 </a>
-<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="#">
+<a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="/">
 <span className="material-symbols-outlined">account_circle</span>
 <span className="font-label text-[10px] font-bold uppercase tracking-tighter">Join</span>
 </a>
