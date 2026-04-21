@@ -21,7 +21,6 @@ export default function MobileWork() {
 <a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="/join">Join Us</a>
 </div>
 </nav>
-</header>
 <main className="pb-12 pt-48">
 {/*  Editorial Header Section  */}
 <section className="px-6 mb-12">

@@ -24,10 +24,6 @@ export default function Work() {
             </button></a>
 </div>
 </nav>
-<a href="/join"><button className="bg-primary text-on-primary px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase hover:opacity-80 transition-opacity duration-300">
-            Partner With Us
-        </button></a>
-</header>
 <main className="pb-24 pt-48">
 {/*  Hero Section  */}
 <section className="max-w-7xl mx-auto px-8 md:px-12 mb-32">

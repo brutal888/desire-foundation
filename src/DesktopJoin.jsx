@@ -24,7 +24,6 @@ export default function Join() {
             </button></a>
 </div>
 </nav>
-</header>
 <main className="pt-48">
 {/*  Hero Section  */}
 <section className="relative px-12 py-24 mb-12 overflow-hidden">
