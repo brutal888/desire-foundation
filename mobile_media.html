@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Living Archive | Media</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;1,300&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed": "#390819",
+                        "on-surface": "#1b1c19",
+                        "on-primary-fixed": "#0c2011",
+                        "on-error-container": "#93000a",
+                        "on-error": "#ffffff",
+                        "tertiary": "#8b4b5a",
+                        "surface-container-high": "#eae8e3",
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#fbf9f4",
+                        "tertiary-fixed": "#ffd9df",
+                        "error-container": "#ffdad6",
+                        "surface-container-low": "#f5f3ee",
+                        "on-secondary-fixed-variant": "#43474b",
+                        "surface-tint": "#4e6450",
+                        "secondary-container": "#dde0e5",
+                        "primary-container": "#8ca38d",
+                        "outline": "#737872",
+                        "surface-variant": "#e4e2dd",
+                        "surface-dim": "#dbdad5",
+                        "surface-container-highest": "#e4e2dd",
+                        "surface-container": "#f0eee9",
+                        "on-secondary": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed": "#e0e3e8",
+                        "outline-variant": "#c3c8c0",
+                        "inverse-on-surface": "#f2f1ec",
+                        "background": "#fbf9f4",
+                        "on-secondary-fixed": "#181c20",
+                        "on-primary-fixed-variant": "#374c3a",
+                        "on-tertiary-container": "#592231",
+                        "secondary-fixed-dim": "#c3c7cc",
+                        "on-surface-variant": "#434842",
+                        "on-secondary-container": "#5f6367",
+                        "on-background": "#1b1c19",
+                        "on-tertiary-fixed-variant": "#6f3443",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed-dim": "#ffb1c2",
+                        "error": "#ba1a1a",
+                        "inverse-surface": "#30312e",
+                        "tertiary-container": "#d48899",
+                        "on-primary-container": "#253928",
+                        "primary": "#4e6450",
+                        "primary-fixed-dim": "#b5cdb5",
+                        "surface-bright": "#fbf9f4",
+                        "primary-fixed": "#d1e9d0",
+                        "inverse-primary": "#b5cdb5",
+                        "secondary": "#5b5f63"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Plus Jakarta Sans"],
+                        "label": ["Plus Jakarta Sans"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fbf9f4; color: #1b1c19; }
+        .font-serif { font-family: 'Noto Serif', serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+        .card-tilt { transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease; }
+        .card-tilt:active { transform: scale(0.98) translateY(2px); }
+        .reveal-on-scroll { animation: reveal 1s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+        @keyframes reveal { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface overflow-x-hidden">
+<!-- TopAppBar Section -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-stone-50/70 backdrop-blur-xl flex justify-between items-center w-full px-8 py-6">
+<div class="text-2xl font-serif italic text-emerald-900">The Living Archive</div>
+<div class="hidden md:flex gap-8">
+<span class="text-stone-500 font-sans uppercase tracking-widest text-[10px]">The Archive</span>
+<span class="text-stone-500 font-sans uppercase tracking-widest text-[10px]">Collaborations</span>
+<span class="text-emerald-900 border-b border-emerald-900/20 pb-1 font-sans uppercase tracking-widest text-[10px]">Media</span>
+<span class="text-stone-500 font-sans uppercase tracking-widest text-[10px]">Heritage</span>
+</div>
+<button class="hidden md:block bg-primary text-on-primary px-6 py-2 rounded-full text-xs font-medium tracking-wide">Begin Your Story</button>
+</nav>
+<main class="pt-28 pb-32 px-6 max-w-lg mx-auto">
+<!-- Immersive Header -->
+<header class="mb-16 reveal-on-scroll">
+<div class="inline-block px-3 py-1 bg-primary-fixed text-on-primary-fixed-variant text-[10px] tracking-[0.2em] uppercase font-bold mb-6 rounded-full">
+                Global Impact
+            </div>
+<h1 class="font-serif text-4xl leading-tight font-light tracking-tight text-on-surface mb-4">
+                Voices of the <span class="italic">Archive</span>
+</h1>
+<p class="text-on-surface-variant leading-relaxed font-light text-lg">
+                Tracing our journey through the eyes of the world. A curated collection of press, stories, and artisanal dialogues.
+            </p>
+</header>
+<!-- Media Feed -->
+<section class="space-y-12">
+<!-- Featured Highlight -->
+<article class="reveal-on-scroll card-tilt group">
+<div class="relative mb-6 rounded-3xl overflow-hidden aspect-[4/5] shadow-sm">
+<img class="object-cover w-full h-full transition-transform duration-1000 group-hover:scale-105" data-alt="Close-up of intricate gold and emerald silk embroidery under soft gallery lighting, showcasing heritage textile art craftsmanship" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBToAwjoZ4iESIE_vRrhCOZR2G4IrFjzLpo19QsssHi_79UFVZilJh8lfgm8LPQa3c0efD2p10y1EwrzTu5PlJPUnphP9eXC-GroKCmeeS5MS_8VAS-aN84BZY6VgtTknlBr3LX7d2snh441AndJ3xUsZ4uWwOtdUmddfXsiez_uyLlqeZKNH86PtMLx1pl7SdhVJFAX_wT2iMpL9zww0xndYre852ouxqLahWgDhF1E4lZdpVP0og3trvqluq04Pj24rxBHeclGqXe"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/40 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<span class="text-white/80 text-[10px] uppercase tracking-widest mb-2 block">Vogue Heritage</span>
+<h2 class="text-white text-2xl font-serif font-light leading-snug">The Renaissance of Sacred Threads</h2>
+</div>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-on-surface-variant text-xs font-medium uppercase tracking-widest">October 24, 2024</span>
+<a class="text-tertiary font-medium text-sm flex items-center gap-1" href="#">
+                        Read Story <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- Media Card 2 -->
+<article class="reveal-on-scroll card-tilt bg-surface-container-low p-6 rounded-3xl" style="animation-delay: 0.1s">
+<div class="flex flex-col gap-4">
+<span class="text-on-primary-fixed-variant text-[10px] uppercase tracking-[0.2em] font-bold">Artisanal Partner</span>
+<h2 class="font-serif text-2xl font-light text-on-surface">Weaving History: The Living Archive Collaboration with UNESCO</h2>
+<p class="text-on-surface-variant text-sm leading-relaxed line-clamp-3">
+                        A landmark partnership aimed at digitizing three centuries of traditional textile patterns for future generations of artisans and designers...
+                    </p>
+<div class="pt-4 flex justify-between items-center border-t border-outline-variant/20">
+<span class="text-secondary text-[11px] font-medium">September 12, 2024</span>
+<button class="text-on-surface font-semibold text-xs underline decoration-primary/30 underline-offset-4">Full Press Release</button>
+</div>
+</div>
+</article>
+<!-- Media Card 3 (Image Focused) -->
+<article class="reveal-on-scroll card-tilt" style="animation-delay: 0.2s">
+<div class="grid grid-cols-5 gap-4">
+<div class="col-span-2 aspect-square rounded-2xl overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Artisan hands working on a traditional loom with olive green threads, warm natural sunlight filtering through a window" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDE4ohu38Qh1jAmtXaLUrTrRF602Z3awAPP6UzWPZ4ONsiXPoMyqs2LTr5YQUVFIjhAISrmST_DGarsCNJcB8G-zhrVh0RvIS611AJKFTx--U2YYEsYw2V7cmTpYsqnjYM18TMBzZUaaHj6vHPY3Dl-KTn5ZtMnd6DptPTF8KTv_uQ_BGtlGTapbFIF9Vt-4dzHcB_1pC0mR-bg0XeEcWo3ykfUSx3x9VBX-FHlds8jl0ZLX7VqcFwFCuiCFIpXHtb_MhEPKPqRQo9"/>
+</div>
+<div class="col-span-3 flex flex-col justify-center">
+<span class="text-tertiary text-[10px] uppercase tracking-widest mb-1">Impact Report</span>
+<h3 class="font-serif text-lg font-light leading-tight mb-2">Empowering 500+ Female Weavers in Rural Hubs</h3>
+<span class="text-on-surface-variant text-[11px]">Modern Curator Magazine</span>
+</div>
+</div>
+</article>
+<!-- Media Card 4 -->
+<article class="reveal-on-scroll card-tilt bg-white p-6 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)]" style="animation-delay: 0.3s">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">play_circle</span>
+</div>
+<span class="text-on-surface-variant text-[11px] uppercase tracking-widest font-medium">Mini-Documentary</span>
+</div>
+<h2 class="font-serif text-xl font-light text-on-surface">The Silence of the Loom: A Short Film</h2>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                        An immersive visual experience capturing the rhythmic sounds and textures of the heritage workshops.
+                    </p>
+<a class="text-primary font-bold text-xs uppercase tracking-widest flex items-center gap-2 mt-2" href="#">
+                        Watch Feature <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</article>
+</section>
+<!-- Press Inquiry CTA -->
+<section class="mt-24 mb-12 py-12 px-8 bg-surface-container-highest rounded-[2rem] text-center reveal-on-scroll">
+<h2 class="font-serif text-2xl font-light mb-4 text-on-surface">Media Relations</h2>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8">
+                For press inquiries, high-resolution archival assets, or interview requests regarding our collaborations.
+            </p>
+<button class="w-full bg-primary text-on-primary py-4 rounded-full font-medium tracking-wide flex items-center justify-center gap-2 group active:scale-95 transition-transform">
+                Press Inquiry
+                <span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform">mail</span>
+</button>
+</section>
+<!-- Simple Footer -->
+<footer class="text-center pb-8">
+<div class="font-serif italic text-xl mb-4 text-emerald-900">The Living Archive</div>
+<p class="text-[11px] text-stone-500 uppercase tracking-widest leading-relaxed">
+                © 2024 The Living Archive.<br/>Curating History through Partnership.
+            </p>
+<div class="flex justify-center gap-6 mt-6">
+<span class="text-[10px] text-stone-400 font-medium">Ethics of Memory</span>
+<span class="text-[10px] text-stone-400 font-medium">Press Inquiry</span>
+</div>
+</footer>
+</main>
+<!-- Bottom Navigation -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 backdrop-blur-2xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)] rounded-t-3xl">
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="#">
+<span class="material-symbols-outlined mb-1">auto_stories</span>
+<span class="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Archive</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="#">
+<span class="material-symbols-outlined mb-1">group_work</span>
+<span class="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Partners</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-emerald-100/50 text-emerald-900 rounded-2xl px-5 py-2 active:scale-95 duration-500 ease-out" href="#">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">theaters</span>
+<span class="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Media</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="#">
+<span class="material-symbols-outlined mb-1">history_edu</span>
+<span class="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Connect</span>
+</a>
+</nav>
+</body></html>

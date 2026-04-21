@@ -135,7 +135,7 @@ export default function MobileJoin() {
 <div className="flex flex-col gap-4">
 <span className="font-bold text-xs uppercase tracking-widest text-[#ab1c6e]">Navigation</span>
 <a className="text-sm font-medium text-[#181e00]/80" href="#">Our Story</a>
-<a className="text-sm font-medium text-[#181e00]/80" href="#">Impact</a>
+<a className="text-sm font-medium text-[#181e00]/80" href="#">Media</a>
 <a className="text-sm font-medium text-[#ab1c6e] font-bold" href="#">Join Us</a>
 </div>
 <div className="flex flex-col gap-4">

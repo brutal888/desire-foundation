@@ -16,7 +16,7 @@ export default function MobileHome() {
 {/*  Desktop Navigation  */}
 <div className="hidden md:flex gap-8 items-center">
 <a className="text-[#ab1c6e] font-bold border-b-2 border-[#ab1c6e] font-['Noto_Serif'] tracking-tight" href="#">Our Story</a>
-<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="#">Impact</a>
+<a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="#">Media</a>
 <a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="#">Projects</a>
 <a className="text-[#181e00]/80 font-medium hover:text-[#ab1c6e] hover:scale-[1.02] transition-all duration-400 font-['Noto_Serif'] tracking-tight" href="#">Join Us</a>
 </div>
@@ -189,7 +189,7 @@ export default function MobileHome() {
 </a>
 <a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="#">
 <span className="material-symbols-outlined">auto_stories</span>
-<span className="font-label text-[10px] font-bold uppercase tracking-tighter">Impact</span>
+<span className="font-label text-[10px] font-bold uppercase tracking-tighter">Media</span>
 </a>
 <a className="flex flex-col items-center gap-1 text-on-surface-variant/60" href="#">
 <span className="material-symbols-outlined">handshake</span>

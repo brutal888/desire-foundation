@@ -14,7 +14,7 @@ export default function MobileWork() {
 </button>
 <nav className="hidden md:flex gap-8 items-center">
 <a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="#">Our Story</a>
-<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="#">Impact</a>
+<a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="#">Media</a>
 <a className="text-primary font-bold border-b-2 border-primary" href="#">Projects</a>
 <a className="text-on-background/80 font-medium hover:text-primary transition-all duration-400" href="#">Join Us</a>
 <button className="bg-primary text-on-primary px-6 py-2.5 rounded-full font-semibold hover:scale-[1.05] transition-transform duration-400">Donate Now</button>
@@ -44,7 +44,7 @@ export default function MobileWork() {
 <p className="text-on-surface-variant font-body leading-relaxed">Documenting and revitalizing 14th-century weaving techniques across the Thar desert through digital mapping and direct grants.</p>
 <div className="flex items-center gap-4 pt-2">
 <div className="flex flex-col">
-<span className="font-label text-[10px] text-on-surface-variant uppercase tracking-widest">Impact</span>
+<span className="font-label text-[10px] text-on-surface-variant uppercase tracking-widest">Media</span>
 <span className="font-headline text-lg font-semibold text-primary">420 Artisans</span>
 </div>
 <div className="h-8 w-[1px] bg-outline-variant/30"></div>
@@ -162,7 +162,7 @@ export default function MobileWork() {
 </a>
 <a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="#">
 <span className="material-symbols-outlined text-2xl group-hover:text-primary">volunteer_activism</span>
-<span className="text-[10px] font-label font-bold uppercase tracking-widest">Impact</span>
+<span className="text-[10px] font-label font-bold uppercase tracking-widest">Media</span>
 </a>
 <a className="flex flex-col items-center gap-1 text-on-surface/60 group" href="#">
 <span className="material-symbols-outlined text-2xl group-hover:text-primary">person</span>

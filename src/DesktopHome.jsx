@@ -17,7 +17,7 @@ export default function Home() {
 <a href="/" className="flex items-center gap-3 cursor-pointer" style={{ cursor: 'pointer' }}><img src="/logo.png" alt="Desire Foundation Logo" className="h-10 w-auto" /><div className="font-serif italic text-2xl text-emerald-950 dark:text-stone-50" style={{ cursor: 'pointer', userSelect: 'none' }}>Desire Foundation</div></a>
 <div className="hidden md:flex items-center space-x-8">
 <div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-emerald-800 dark:text-emerald-200 border-b-2 border-emerald-800 dark:border-emerald-200 pb-1" href="/about">Our Story</a></div>
-<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/about">Impact</a></div>
+<div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/about">Media</a></div>
 <div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/projects">Projects</a></div>
 <div className="magnetic-wrap"><a className="tracking-wide uppercase text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-emerald-900 dark:hover:text-stone-100 transition-colors duration-500" href="/join">Join Us</a></div>
 </div>

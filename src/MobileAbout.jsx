@@ -145,7 +145,7 @@ export default function MobileAbout() {
 <h4 className="font-label text-xs uppercase font-bold text-on-surface opacity-60 tracking-widest">Foundation</h4>
 <nav className="flex flex-col gap-3">
 <a className="text-sm font-medium hover:text-primary transition-colors" href="#">Our Story</a>
-<a className="text-sm font-medium hover:text-primary transition-colors" href="#">Impact</a>
+<a className="text-sm font-medium hover:text-primary transition-colors" href="#">Media</a>
 <a className="text-sm font-medium hover:text-primary transition-colors" href="#">Projects</a>
 <a className="text-sm font-medium hover:text-primary transition-colors" href="#">Join Us</a>
 </nav>

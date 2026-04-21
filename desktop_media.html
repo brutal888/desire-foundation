@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Media | The Living Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-tertiary-fixed": "#390819",
+                      "on-surface": "#1b1c19",
+                      "on-primary-fixed": "#0c2011",
+                      "on-error-container": "#93000a",
+                      "on-error": "#ffffff",
+                      "tertiary": "#8b4b5a",
+                      "surface-container-high": "#eae8e3",
+                      "surface-container-lowest": "#ffffff",
+                      "surface": "#fbf9f4",
+                      "tertiary-fixed": "#ffd9df",
+                      "error-container": "#ffdad6",
+                      "surface-container-low": "#f5f3ee",
+                      "on-secondary-fixed-variant": "#43474b",
+                      "surface-tint": "#4e6450",
+                      "secondary-container": "#dde0e5",
+                      "primary-container": "#8ca38d",
+                      "outline": "#737872",
+                      "surface-variant": "#e4e2dd",
+                      "surface-dim": "#dbdad5",
+                      "surface-container-highest": "#e4e2dd",
+                      "surface-container": "#f0eee9",
+                      "on-secondary": "#ffffff",
+                      "on-primary": "#ffffff",
+                      "secondary-fixed": "#e0e3e8",
+                      "outline-variant": "#c3c8c0",
+                      "inverse-on-surface": "#f2f1ec",
+                      "background": "#fbf9f4",
+                      "on-secondary-fixed": "#181c20",
+                      "on-primary-fixed-variant": "#374c3a",
+                      "on-tertiary-container": "#592231",
+                      "secondary-fixed-dim": "#c3c7cc",
+                      "on-surface-variant": "#434842",
+                      "on-secondary-container": "#5f6367",
+                      "on-background": "#1b1c19",
+                      "on-tertiary-fixed-variant": "#6f3443",
+                      "on-tertiary": "#ffffff",
+                      "tertiary-fixed-dim": "#ffb1c2",
+                      "error": "#ba1a1a",
+                      "inverse-surface": "#30312e",
+                      "tertiary-container": "#d48899",
+                      "on-primary-container": "#253928",
+                      "primary": "#4e6450",
+                      "primary-fixed-dim": "#b5cdb5",
+                      "surface-bright": "#fbf9f4",
+                      "primary-fixed": "#d1e9d0",
+                      "inverse-primary": "#b5cdb5",
+                      "secondary": "#5b5f63"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Noto Serif"],
+                      "body": ["Plus Jakarta Sans"],
+                      "label": ["Plus Jakarta Sans"]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .text-3d-tilt {
+            transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+            transform-style: preserve-3d;
+        }
+        .text-3d-tilt:hover {
+            transform: perspective(1000px) rotateX(2deg) rotateY(2deg);
+        }
+        .glass-nav {
+            backdrop-filter: blur(24px);
+        }
+        .reveal-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: reveal 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        }
+        @keyframes reveal {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .parallax-bg {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar -->
+<header class="bg-stone-50/70 dark:bg-stone-950/70 backdrop-blur-xl docked full-width top-0 z-50 fixed w-full no-border-tonal-shift-only">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-serif italic text-emerald-900 dark:text-stone-100">The Living Archive</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="#">The Archive</a>
+<a class="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="#">Collaborations</a>
+<a class="text-emerald-900 dark:text-emerald-100 border-b border-emerald-900/20 pb-1 font-sans uppercase tracking-widest text-[10px] transition-colors duration-500" href="#">Media</a>
+<a class="text-stone-500 dark:text-stone-400 font-sans uppercase tracking-widest text-[10px] hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-500" href="#">Heritage</a>
+</nav>
+<button class="bg-primary text-on-primary rounded-full px-8 py-3 text-sm font-medium transition-all duration-700 hover:bg-on-primary-fixed-variant hover:shadow-lg active:scale-95">
+                Begin Your Story
+            </button>
+</div>
+</header>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative h-[870px] flex items-center overflow-hidden bg-surface-container-low">
+<div class="absolute inset-0 z-0 parallax-bg" data-alt="Close up of antique archival paper textures and vintage library books with soft natural light and dust motes" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBe_QfpVMziaGTfsyoSiS9FL-pFDe52CfzRGVJDCLaVCZIMsuyTQRXLhW0HQJoaUDi6t_nFyfg2p89d1owVUWAjefhh1o7n8eJu5nPYCRyAtwXO5_8OndOEpdAAKUphWfQN1JeYvzYKB_Hp4Y4143NO932WWWXboP_pHBidZb9fVSJ8fDybYix8aiC736vPD9zwUXOdDTehnxOcnUv2CC5TQ4dC2znD6W9lOVOJOJfdQu5BP7vKxAeumQ3_nuXfgXHC7NerBPtGPNak');">
+<div class="absolute inset-0 bg-surface/80"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
+<div class="max-w-4xl reveal-on-scroll">
+<span class="font-label text-tertiary uppercase tracking-[0.3em] text-xs mb-6 block">Documenting the Journey</span>
+<h1 class="font-headline text-7xl md:text-8xl text-on-surface leading-tight tracking-tight mb-8">
+                        The Media <br/>
+<span class="italic font-light">Repository</span>
+</h1>
+<p class="font-body text-xl text-on-surface-variant max-w-xl leading-relaxed">
+                        A curated archive of our global footprint, tracing the threads of artisanal heritage and social impact through the lens of international press.
+                    </p>
+</div>
+</div>
+<!-- Asymmetric element -->
+<div class="absolute bottom-12 right-0 w-1/3 h-64 bg-primary/10 backdrop-blur-3xl -mr-12 rounded-l-full hidden lg:block"></div>
+</section>
+<!-- Featured Coverage -->
+<section class="py-32 px-8 bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="relative group reveal-on-scroll">
+<div class="aspect-[4/5] overflow-hidden bg-surface-container-high rounded-xl text-3d-tilt">
+<img alt="Editorial photo of textile artisans working on intricate patterns" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="High-end editorial photo of skilled artisans weaving intricate emerald and gold threads on a traditional loom in a sun-drenched studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHAmZhMmM9kbwIOl4Qkx0TwKX7PC6fcayqMcWE95ehOuqkq4-TNH3CF7t74J4rBvS7kpAkJ46LrPLNTz4pS-RjJqnJ9DanHqgC2wNChWDFQwFhVjHEyARgbNh6YVSKMZxXkvPhTC4LIKIVbf4_jfPVnTuJ07nBOrm4Cm2tcfjYZlequvFYwWDrqWYo0k7To1sRmosE4ImTSBIouna94zJzXF1Rsh7_IQU8q2k3eutHRg4vstPGKgzZxU0KsR06zI2DfiRObZZYDM4Y"/>
+</div>
+<!-- Overlapping Badge -->
+<div class="absolute -bottom-10 -right-10 bg-surface-container-lowest p-12 shadow-2xl max-w-sm hidden md:block">
+<p class="font-headline text-2xl italic mb-4">"A revolutionary approach to heritage preservation."</p>
+<span class="font-label text-sm uppercase tracking-widest text-outline">The Global Chronicle</span>
+</div>
+</div>
+<div class="flex flex-col justify-center reveal-on-scroll" style="animation-delay: 0.2s;">
+<span class="text-primary font-medium tracking-widest uppercase text-xs mb-6 block">Featured Story</span>
+<h2 class="font-headline text-5xl text-on-surface mb-8 leading-tight">Empowering Artisans: The Cloth Bag Initiative</h2>
+<p class="font-body text-lg text-on-surface-variant mb-10 leading-relaxed">
+                            How our partnership-driven model for automatic cloth bag distribution captured the attention of leading environmental and social media outlets across the continent.
+                        </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-on-primary rounded-full px-10 py-4 text-sm font-semibold transition-all duration-500 hover:shadow-[0_10px_20px_-5px_rgba(78,100,80,0.3)]">
+                                Read the Full Feature
+                            </button>
+<button class="border-b-2 border-primary/20 hover:border-primary text-primary px-4 py-4 text-sm font-semibold transition-all">
+                                View Press Release
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Press Gallery Grid -->
+<section class="py-32 px-8 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="flex justify-between items-end mb-20 reveal-on-scroll">
+<div>
+<h2 class="font-headline text-5xl text-on-surface mb-4">The Press Gallery</h2>
+<p class="text-on-surface-variant font-body">A narrative of impact through global headlines.</p>
+</div>
+<div class="hidden md:flex gap-4">
+<button class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined" data-icon="chevron_left">chevron_left</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+<!-- Media Card 1 -->
+<div class="group reveal-on-scroll">
+<div class="bg-surface-container-lowest overflow-hidden transition-all duration-700 text-3d-tilt hover:shadow-xl">
+<div class="aspect-[16/10] overflow-hidden">
+<img alt="Newspaper archive collection" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close-up of vintage newspaper clippings about heritage and craft arranged artfully on a light wooden table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoXqSNH_ZkLMDaRynyBcjpP1ZUJIjg8sUf0_jlXYFI0MuIvTdHUeb8PTWL5zA5d8VYbjKPNJEFgaXkCNGzRO6_IF8ZxM_9bqwJ4C7BDHUNBpL-L4EZkpKR5IHQJ68oDz5EfXKX8LcaJzUKRq6HqExlonSrMbgWkWRhw03Q49etLgDUctmd-1WukVvy4hArZq2ZCTqD2FH6mIMBAFufMNGBkIg_YhGR4X6Cm2iNv7lqjQpqdqVwgwoN3zTLM8HF_Y0IrcDv9mOCo2eb"/>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-center mb-4">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary">Vogue Heritage</span>
+<span class="font-label text-[10px] text-outline">Oct 2024</span>
+</div>
+<h3 class="font-headline text-xl mb-6 group-hover:text-primary transition-colors">Weaving the Future: Sustainable Archives</h3>
+<a class="text-tertiary font-label text-xs uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+                                    Read Article <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Media Card 2 -->
+<div class="group reveal-on-scroll" style="animation-delay: 0.2s;">
+<div class="bg-surface-container-lowest overflow-hidden transition-all duration-700 text-3d-tilt hover:shadow-xl">
+<div class="aspect-[16/10] overflow-hidden">
+<img alt="Person reading broadsheet newspaper" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A person in an elegant beige coat reading a large broadsheet newspaper in a clean, minimalist architectural space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnSOQJ9Ef_DsRyQLNFjmbErOCiqiUo5Cz19dupdnZxx0ZbzAI8_zJ04Mh7sboOOf5umevXFfLDm0EsbBNZjRN_xRX_vWD30FtFJHfi5OhSQh-5dR9SNpmS5FM1tyMYS7XAP5p778MopXh1Ki90dWH-ACIcd9u68AlOy8FtQo7Wr_yMfzXarbSeH6ZOPfS1Qen87fCvGuPOuCZ57aZxJlXDLfJO_4MUEKC1VkZVYqXF7JO8JybDJjETskWKq0ANoMvOO8whTlMM6YUA"/>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-center mb-4">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary">Times of Craft</span>
+<span class="font-label text-[10px] text-outline">Sept 2024</span>
+</div>
+<h3 class="font-headline text-xl mb-6 group-hover:text-primary transition-colors">The Digital Curators of the East</h3>
+<a class="text-tertiary font-label text-xs uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+                                    Read Article <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Media Card 3 -->
+<div class="group reveal-on-scroll" style="animation-delay: 0.4s;">
+<div class="bg-surface-container-lowest overflow-hidden transition-all duration-700 text-3d-tilt hover:shadow-xl">
+<div class="aspect-[16/10] overflow-hidden">
+<img alt="Abstract media studio lighting" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Modern minimalist television studio set with soft sage green lighting and clean geometric shapes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdmr3Y_JkvRbhhQUh_A_rHH8b9XmrUnO3-9bA0d_asTe2frb2G7_nNMqSXQPJPFypK4gmHHSmu2-zltjC_F7y7mbCeGNdyQTpU1QssHXgHrBw5UrgNyYcP0EiCf6FCNn0pYx8RU8ZFHOshTx7zuGERwFVcUrRyo2EBHWydInN2SH2thlEDxL1MLPdBz9RVpxQLHMZPMZ5ppIefBiOLUOc72Xdm6yOPxxOlcMsNEkrRKrEGmA5J1QZeF4dL30q32UjrYTsR3SmLxleG"/>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-center mb-4">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary">BBC Impact</span>
+<span class="font-label text-[10px] text-outline">Aug 2024</span>
+</div>
+<h3 class="font-headline text-xl mb-6 group-hover:text-primary transition-colors">Bridging Generations Through Textile</h3>
+<a class="text-tertiary font-label text-xs uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+                                    Watch Feature <span class="material-symbols-outlined text-sm" data-icon="play_circle">play_circle</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Press Resources -->
+<section class="py-32 px-8 bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="bg-surface-container rounded-3xl p-12 lg:p-20 relative overflow-hidden reveal-on-scroll">
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="font-headline text-5xl text-on-surface mb-8">Press Resources</h2>
+<p class="font-body text-on-surface-variant text-lg mb-12 leading-relaxed">
+                                Access our official media kit, high-resolution visual assets, and institutional brand guidelines for editorial use.
+                            </p>
+<div class="space-y-6">
+<div class="flex items-center justify-between p-6 bg-surface-container-low rounded-2xl group cursor-pointer hover:bg-surface-container-highest transition-colors">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="folder_zip">folder_zip</span>
+<div>
+<p class="font-medium text-on-surface">Institutional Media Kit 2024</p>
+<p class="text-xs text-outline font-label uppercase tracking-widest">PDF, 45MB • Updated Oct 2024</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors" data-icon="download">download</span>
+</div>
+<div class="flex items-center justify-between p-6 bg-surface-container-low rounded-2xl group cursor-pointer hover:bg-surface-container-highest transition-colors">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="image">image</span>
+<div>
+<p class="font-medium text-on-surface">Brand Asset Gallery</p>
+<p class="text-xs text-outline font-label uppercase tracking-widest">JPG/PNG/SVG • High Resolution</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors" data-icon="download">download</span>
+</div>
+</div>
+</div>
+<div class="hidden lg:block">
+<div class="relative">
+<div class="aspect-square bg-surface-container-low rounded-full absolute -top-20 -right-20 w-80 h-80 opacity-50"></div>
+<img alt="Institutional branding mockup" class="relative z-10 rounded-2xl shadow-2xl w-full h-[500px] object-cover" data-alt="Elegant branding mockup featuring a minimalist business card and letterhead with the The Living Archive logo in deep emerald on cream paper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBreUVRMx_kwYyt3aQxczqMntISX_eb_8Ef1WkFZBjUquRSFu03_9_voRalq5-71-5OSd-oH_3ZdOH6tlZ4Inz4MLEtWLHrOdYKQxrf35hk2vVVQfyp3oYZuAJZEEx97EMNK1F3OgAGizQ76PmJhCMbRMze0QJxtOCo8Q7C9aWJgAEGGiXPxKne5MEWgnndKT9L2As3fYdVRkIciKaGQBvoXKXADpCIa8UYLwJsYxHDT545f1Vlr0gokdMhAHXhV8ePwbCd7-CTV47I"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Inquire for Partnership (CTA) -->
+<section class="py-32 px-8 bg-surface-container-highest">
+<div class="max-w-4xl mx-auto text-center reveal-on-scroll">
+<span class="font-label text-tertiary uppercase tracking-[0.3em] text-xs mb-8 block">Collaborate with Us</span>
+<h2 class="font-headline text-6xl text-on-surface mb-8 italic font-light">Join the Weave</h2>
+<p class="font-body text-xl text-on-surface-variant mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Interested in featuring our story or exploring an artisanal partnership? Our team is ready to curate a unique collaboration with your publication.
+                </p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+<button class="bg-primary text-on-primary rounded-full px-12 py-5 text-sm font-semibold transition-all duration-700 hover:bg-on-primary-fixed-variant hover:scale-105">
+                        Partner with the Archive
+                    </button>
+<button class="text-on-surface px-12 py-5 text-sm font-semibold transition-all hover:text-primary underline decoration-primary/20 underline-offset-8">
+                        Press Inquiry
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-stone-100 dark:bg-stone-900 full-width py-20 px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-7xl mx-auto">
+<div>
+<div class="font-serif italic text-xl text-emerald-900 dark:text-stone-100 mb-6">The Living Archive</div>
+<p class="font-body text-stone-600 dark:text-stone-400 max-w-md leading-relaxed mb-8">
+                    An initiative by the Desire Foundation, dedicated to preserving the ephemeral beauty of artisanal heritage through modern curatorial practice.
+                </p>
+<p class="font-['Plus_Jakarta_Sans'] text-sm tracking-wide text-stone-600 dark:text-stone-400">
+                    © 2024 The Living Archive. Curating History through Partnership.
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-8">
+<div class="flex flex-col gap-4">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary mb-2">Explore</span>
+<a class="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="#">The Archive</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="#">Collaborations</a>
+<a class="text-emerald-800 underline decoration-emerald-800/30" href="#">Media</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-label text-[10px] uppercase tracking-widest text-primary mb-2">Heritage</span>
+<a class="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="#">Artisanal Partnership</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="#">Press Inquiry</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-emerald-700 transition-all duration-500" href="#">Ethics of Memory</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-2xl rounded-t-3xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)]">
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="auto_stories">auto_stories</span>
+<span class="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Archive</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="group_work">group_work</span>
+<span class="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Partners</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-emerald-100/50 dark:bg-emerald-900/30 text-emerald-900 dark:text-emerald-50 rounded-2xl px-5 py-2" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="theaters" style="font-variation-settings: 'FILL' 1;">theaters</span>
+<span class="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Media</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="history_edu">history_edu</span>
+<span class="font-['Plus_Jakarta_Sans'] font-medium text-[11px]">Connect</span>
+</a>
+</nav>
+</body></html>
