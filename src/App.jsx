@@ -4,6 +4,7 @@ import Home from './Home'
 import About from './About'
 import Work from './Work'
 import Join from './Join'
+import Media from './Media'
 
 function App() {
   return (

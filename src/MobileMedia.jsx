@@ -7,7 +7,7 @@ export default function MobileMedia() {
   return (
     <div className="bg-background text-on-background font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
       
-<!-- TopAppBar Section -->
+{/*  */}
 <nav className="fixed top-0 left-0 right-0 z-50 bg-stone-50/70 backdrop-blur-xl flex justify-between items-center w-full px-8 py-6">
 <div className="text-2xl font-serif italic text-emerald-900">Desire Foundation</div>
 <div className="hidden md:flex gap-8">
@@ -19,7 +19,7 @@ export default function MobileMedia() {
 <button className="hidden md:block bg-primary text-on-primary px-6 py-2 rounded-full text-xs font-medium tracking-wide">Begin Your Story</button>
 </nav>
 <main className="pt-28 pb-32 px-6 max-w-lg mx-auto">
-<!-- Immersive Header -->
+{/*  */}
 <header className="mb-16 reveal-on-scroll">
 <div className="inline-block px-3 py-1 bg-primary-fixed text-on-primary-fixed-variant text-[10px] tracking-[0.2em] uppercase font-bold mb-6 rounded-full">
                 Global Media
@@ -31,9 +31,9 @@ export default function MobileMedia() {
                 Tracing our journey through the eyes of the world. A curated collection of press, stories, and artisanal dialogues.
             </p>
 </header>
-<!-- Media Feed -->
+{/*  */}
 <section className="space-y-12">
-<!-- Featured Highlight -->
+{/*  */}
 <article className="reveal-on-scroll card-tilt group">
 <div className="relative mb-6 rounded-3xl overflow-hidden aspect-[4/5] shadow-sm">
 <img className="object-cover w-full h-full transition-transform duration-1000 group-hover:scale-105" data-alt="Close-up of intricate gold and emerald silk embroidery under soft gallery lighting, showcasing heritage textile art craftsmanship" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBToAwjoZ4iESIE_vRrhCOZR2G4IrFjzLpo19QsssHi_79UFVZilJh8lfgm8LPQa3c0efD2p10y1EwrzTu5PlJPUnphP9eXC-GroKCmeeS5MS_8VAS-aN84BZY6VgtTknlBr3LX7d2snh441AndJ3xUsZ4uWwOtdUmddfXsiez_uyLlqeZKNH86PtMLx1pl7SdhVJFAX_wT2iMpL9zww0xndYre852ouxqLahWgDhF1E4lZdpVP0og3trvqluq04Pj24rxBHeclGqXe"/>
@@ -50,7 +50,7 @@ export default function MobileMedia() {
 </a>
 </div>
 </article>
-<!-- Media Card 2 -->
+{/*  */}
 <article className="reveal-on-scroll card-tilt bg-surface-container-low p-6 rounded-3xl" style="animation-delay: 0.1s">
 <div className="flex flex-col gap-4">
 <span className="text-on-primary-fixed-variant text-[10px] uppercase tracking-[0.2em] font-bold">Artisanal Partner</span>
@@ -64,7 +64,7 @@ export default function MobileMedia() {
 </div>
 </div>
 </article>
-<!-- Media Card 3 (Image Focused) -->
+{/*  */}
 <article className="reveal-on-scroll card-tilt" style="animation-delay: 0.2s">
 <div className="grid grid-cols-5 gap-4">
 <div className="col-span-2 aspect-square rounded-2xl overflow-hidden shadow-sm">
@@ -77,7 +77,7 @@ export default function MobileMedia() {
 </div>
 </div>
 </article>
-<!-- Media Card 4 -->
+{/*  */}
 <article className="reveal-on-scroll card-tilt bg-white p-6 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)]" style="animation-delay: 0.3s">
 <div className="flex flex-col gap-4">
 <div className="flex items-center gap-3">
@@ -96,7 +96,7 @@ export default function MobileMedia() {
 </div>
 </article>
 </section>
-<!-- Press Inquiry CTA -->
+{/*  */}
 <section className="mt-24 mb-12 py-12 px-8 bg-surface-container-highest rounded-[2rem] text-center reveal-on-scroll">
 <h2 className="font-serif text-2xl font-light mb-4 text-on-surface">Media Relations</h2>
 <p className="text-on-surface-variant text-sm leading-relaxed mb-8">
@@ -107,7 +107,7 @@ export default function MobileMedia() {
                 <span className="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform">mail</span>
 </button>
 </section>
-<!-- Simple Footer -->
+{/*  */}
 <footer className="text-center pb-8">
 <div className="font-serif italic text-xl mb-4 text-emerald-900">Desire Foundation</div>
 <p className="text-[11px] text-stone-500 uppercase tracking-widest leading-relaxed">
@@ -119,7 +119,7 @@ export default function MobileMedia() {
 </div>
 </footer>
 </main>
-<!-- Bottom Navigation -->
+{/*  */}
 <nav className="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 backdrop-blur-2xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)] rounded-t-3xl">
 <a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300" href="/">
 <span className="material-symbols-outlined mb-1">auto_stories</span>

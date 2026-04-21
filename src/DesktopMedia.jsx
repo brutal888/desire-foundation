@@ -7,7 +7,7 @@ export default function DesktopMedia() {
   return (
     <div className="bg-background text-on-background font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
       
-<!-- TopAppBar -->
+{/*  */}
 <header className="bg-stone-50/70 dark:bg-stone-950/70 backdrop-blur-xl docked full-width top-0 z-50 fixed w-full no-border-tonal-shift-only">
 <div className="flex justify-between items-center w-full px-8 py-6 max-w-screen-2xl mx-auto">
 <a href="/" className="text-2xl font-serif italic text-emerald-900 dark:text-stone-100" style={{ cursor: "pointer", userSelect: "none" }}>Desire Foundation</a>
@@ -23,7 +23,7 @@ export default function DesktopMedia() {
 </div>
 </header>
 <main className="pt-24">
-<!-- Hero Section -->
+{/*  */}
 <section className="relative h-[870px] flex items-center overflow-hidden bg-surface-container-low">
 <div className="absolute inset-0 z-0 parallax-bg" data-alt="Close up of antique archival paper textures and vintage library books with soft natural light and dust motes" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBe_QfpVMziaGTfsyoSiS9FL-pFDe52CfzRGVJDCLaVCZIMsuyTQRXLhW0HQJoaUDi6t_nFyfg2p89d1owVUWAjefhh1o7n8eJu5nPYCRyAtwXO5_8OndOEpdAAKUphWfQN1JeYvzYKB_Hp4Y4143NO932WWWXboP_pHBidZb9fVSJ8fDybYix8aiC736vPD9zwUXOdDTehnxOcnUv2CC5TQ4dC2znD6W9lOVOJOJfdQu5BP7vKxAeumQ3_nuXfgXHC7NerBPtGPNak');">
 <div className="absolute inset-0 bg-surface/80"></div>
@@ -40,10 +40,10 @@ export default function DesktopMedia() {
                     </p>
 </div>
 </div>
-<!-- Asymmetric element -->
+{/*  */}
 <div className="absolute bottom-12 right-0 w-1/3 h-64 bg-primary/10 backdrop-blur-3xl -mr-12 rounded-l-full hidden lg:block"></div>
 </section>
-<!-- Featured Coverage -->
+{/*  */}
 <section className="py-32 px-8 bg-surface">
 <div className="max-w-7xl mx-auto">
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -51,7 +51,7 @@ export default function DesktopMedia() {
 <div className="aspect-[4/5] overflow-hidden bg-surface-container-high rounded-xl text-3d-tilt">
 <img alt="Editorial photo of textile artisans working on intricate patterns" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="High-end editorial photo of skilled artisans weaving intricate emerald and gold threads on a traditional loom in a sun-drenched studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHAmZhMmM9kbwIOl4Qkx0TwKX7PC6fcayqMcWE95ehOuqkq4-TNH3CF7t74J4rBvS7kpAkJ46LrPLNTz4pS-RjJqnJ9DanHqgC2wNChWDFQwFhVjHEyARgbNh6YVSKMZxXkvPhTC4LIKIVbf4_jfPVnTuJ07nBOrm4Cm2tcfjYZlequvFYwWDrqWYo0k7To1sRmosE4ImTSBIouna94zJzXF1Rsh7_IQU8q2k3eutHRg4vstPGKgzZxU0KsR06zI2DfiRObZZYDM4Y"/>
 </div>
-<!-- Overlapping Badge -->
+{/*  */}
 <div className="absolute -bottom-10 -right-10 bg-surface-container-lowest p-12 shadow-2xl max-w-sm hidden md:block">
 <p className="font-headline text-2xl italic mb-4">"A revolutionary approach to heritage preservation."</p>
 <span className="font-label text-sm uppercase tracking-widest text-outline">The Global Chronicle</span>
@@ -75,7 +75,7 @@ export default function DesktopMedia() {
 </div>
 </div>
 </section>
-<!-- Press Gallery Grid -->
+{/*  */}
 <section className="py-32 px-8 bg-surface-container-low">
 <div className="max-w-7xl mx-auto">
 <div className="flex justify-between items-end mb-20 reveal-on-scroll">
@@ -93,7 +93,7 @@ export default function DesktopMedia() {
 </div>
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-<!-- Media Card 1 -->
+{/*  */}
 <div className="group reveal-on-scroll">
 <div className="bg-surface-container-lowest overflow-hidden transition-all duration-700 text-3d-tilt hover:shadow-xl">
 <div className="aspect-[16/10] overflow-hidden">
@@ -111,7 +111,7 @@ export default function DesktopMedia() {
 </div>
 </div>
 </div>
-<!-- Media Card 2 -->
+{/*  */}
 <div className="group reveal-on-scroll" style="animation-delay: 0.2s;">
 <div className="bg-surface-container-lowest overflow-hidden transition-all duration-700 text-3d-tilt hover:shadow-xl">
 <div className="aspect-[16/10] overflow-hidden">
@@ -129,7 +129,7 @@ export default function DesktopMedia() {
 </div>
 </div>
 </div>
-<!-- Media Card 3 -->
+{/*  */}
 <div className="group reveal-on-scroll" style="animation-delay: 0.4s;">
 <div className="bg-surface-container-lowest overflow-hidden transition-all duration-700 text-3d-tilt hover:shadow-xl">
 <div className="aspect-[16/10] overflow-hidden">
@@ -150,7 +150,7 @@ export default function DesktopMedia() {
 </div>
 </div>
 </section>
-<!-- Press Resources -->
+{/*  */}
 <section className="py-32 px-8 bg-surface">
 <div className="max-w-7xl mx-auto">
 <div className="bg-surface-container rounded-3xl p-12 lg:p-20 relative overflow-hidden reveal-on-scroll">
@@ -193,7 +193,7 @@ export default function DesktopMedia() {
 </div>
 </div>
 </section>
-<!-- Inquire for Partnership (CTA) -->
+{/*  */}
 <section className="py-32 px-8 bg-surface-container-highest">
 <div className="max-w-4xl mx-auto text-center reveal-on-scroll">
 <span className="font-label text-tertiary uppercase tracking-[0.3em] text-xs mb-8 block">Collaborate with Us</span>
@@ -212,7 +212,7 @@ export default function DesktopMedia() {
 </div>
 </section>
 </main>
-<!-- Footer -->
+{/*  */}
 <footer className="bg-stone-100 dark:bg-stone-900 full-width py-20 px-8">
 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-7xl mx-auto">
 <div>
@@ -240,7 +240,7 @@ export default function DesktopMedia() {
 </div>
 </div>
 </footer>
-<!-- BottomNavBar (Mobile Only) -->
+{/*  */}
 <nav className="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-8 pt-4 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-2xl rounded-t-3xl shadow-[0_-8px_40px_-15px_rgba(0,0,0,0.05)]">
 <a className="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-2 hover:bg-stone-200/40 transition-all duration-300 active:scale-95" href="/">
 <span className="material-symbols-outlined mb-1" data-icon="auto_stories">auto_stories</span>
