@@ -29,35 +29,4 @@
     display: inline-block;
     transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
   }
-  .custom-cursor {
-    width: 20px;
-    height: 20px;
-    border: 1px solid rgba(78, 100, 80, 0.5);
-    border-radius: 50%;
-    position: fixed;
-    pointer-events: none;
-    z-index: 9999;
-    transition: transform 0.1s ease-out, width 0.3s ease, height 0.3s ease, background 0.3s ease;
-    transform: translate(-50%, -50%);
-  }
-  .custom-cursor-follower {
-    width: 8px;
-    height: 8px;
-    background: rgba(78, 100, 80, 0.8);
-    border-radius: 50%;
-    position: fixed;
-    pointer-events: none;
-    z-index: 9998;
-    transition: transform 0.15s ease-out;
-    transform: translate(-50%, -50%);
-  }
-  body:hover .custom-cursor,
-  body:hover .custom-cursor-follower {
-    opacity: 1;
-  }
-  .magnetic-active .custom-cursor {
-    transform: translate(-50%, -50%) scale(2.5);
-    background: rgba(78, 100, 80, 0.1);
-    border-color: rgba(78, 100, 80, 0.8);
-  }
 }

@@ -2,21 +2,7 @@ import { useEffect } from 'react';
 
 export const useInteractiveElements = () => {
   useEffect(() => {
-    // Custom Cursor Logic
-    const cursor = document.getElementById('cursor');
-    const follower = document.getElementById('cursor-follower');
     const magneticWraps = document.querySelectorAll('.magnetic-wrap');
-
-    const handleMouseMove = (e) => {
-      if (cursor && follower) {
-        cursor.style.left = e.clientX + 'px';
-        cursor.style.top = e.clientY + 'px';
-        follower.style.left = e.clientX + 'px';
-        follower.style.top = e.clientY + 'px';
-      }
-    };
-
-    document.addEventListener('mousemove', handleMouseMove);
 
     // Magnetic Hover Effect
     const handleMagneticMove = (e, wrap) => {
@@ -24,12 +10,10 @@ export const useInteractiveElements = () => {
       const x = e.clientX - rect.left - rect.width / 2;
       const y = e.clientY - rect.top - rect.height / 2;
       wrap.style.transform = `translate(${x * 0.3}px, ${y * 0.3}px)`;
-      document.body.classList.add('magnetic-active');
     };
 
     const handleMagneticLeave = (wrap) => {
       wrap.style.transform = `translate(0px, 0px)`;
-      document.body.classList.remove('magnetic-active');
     };
 
     magneticWraps.forEach(wrap => {
@@ -49,7 +33,7 @@ export const useInteractiveElements = () => {
 
     document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
-    // Hero Background Parallax & Custom Cursor Mouse Parallax
+    // Hero Background Parallax
     const heroBg = document.getElementById('hero-parallax-bg');
     const handleParallaxMove = (e) => {
       const x = (e.clientX / window.innerWidth - 0.5) * 40;
@@ -83,11 +67,8 @@ export const useInteractiveElements = () => {
     });
 
     return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mousemove', handleParallaxMove);
       revealObserver.disconnect();
-      // To properly clean up, we'd need to store references to the bounded event listeners.
-      // For simplicity in this generated code, we leave some clean up minimal.
     };
   }, []);
 };

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-background": "#181e00",
+                    "surface-container-high": "#e4eeb2",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary-fixed": "#a4f785",
+                    "on-tertiary-fixed": "#042100",
+                    "surface-dim": "#d6dfa4",
+                    "tertiary-fixed-dim": "#89da6c",
+                    "secondary-fixed": "#c3e8ff",
+                    "secondary-container": "#6fceff",
+                    "on-surface-variant": "#564149",
+                    "error-container": "#ffdad6",
+                    "surface-container-highest": "#dee8ac",
+                    "surface-tint": "#af1f70",
+                    "primary-fixed": "#ffd8e5",
+                    "on-secondary-container": "#005776",
+                    "background": "#f5ffc2",
+                    "on-primary-fixed": "#3d0023",
+                    "surface-bright": "#f5ffc2",
+                    "outline": "#8a7079",
+                    "on-tertiary": "#ffffff",
+                    "tertiary": "#1d6a03",
+                    "on-surface": "#181e00",
+                    "on-primary-container": "#fffbff",
+                    "secondary": "#006689",
+                    "secondary-fixed-dim": "#78d1ff",
+                    "inverse-primary": "#ffb0d0",
+                    "on-secondary-fixed": "#001e2c",
+                    "surface-variant": "#dee8ac",
+                    "on-error-container": "#93000a",
+                    "on-primary-fixed-variant": "#8c0056",
+                    "on-primary": "#ffffff",
+                    "primary-fixed-dim": "#ffb0d0",
+                    "primary": "#ab1c6e",
+                    "surface": "#f5ffc2",
+                    "on-secondary-fixed-variant": "#004c68",
+                    "primary-container": "#cc3a87",
+                    "on-tertiary-container": "#f8ffee",
+                    "on-error": "#ffffff",
+                    "outline-variant": "#ddbfc9",
+                    "tertiary-container": "#398420",
+                    "on-tertiary-fixed-variant": "#135200",
+                    "surface-container": "#eaf3b7",
+                    "error": "#ba1a1a",
+                    "surface-container-low": "#f0f9bc",
+                    "inverse-on-surface": "#edf6ba",
+                    "inverse-surface": "#2c3409",
+                    "on-secondary": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #f5ffc2;
+            color: #181e00;
+            overflow-x: hidden;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#f5ffc2]/70 backdrop-blur-xl flex justify-between items-center px-6 py-4 shadow-[0_12px_40px_rgba(24,30,0,0.06)]">
+<div class="text-2xl font-['Noto_Serif'] font-bold text-[#181e00]">Desire Foundation</div>
+<button class="material-symbols-outlined text-primary text-3xl">menu</button>
+</nav>
+<main class="pt-24 pb-12 px-6 space-y-12">
+<!-- Hero Section -->
+<header class="space-y-6">
+<h1 class="font-headline text-4xl font-bold leading-tight tracking-tight text-on-background">Become a part of the legacy.</h1>
+<p class="text-on-surface-variant text-lg leading-relaxed max-w-md">Your contribution fuels our archive and supports the artisans preserving our shared heritage.</p>
+<div class="relative h-64 w-full rounded-xl overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Close-up of skilled hands weaving a complex patterned textile with vibrant threads in a sunlit traditional workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaezRMxxi45JUhx2FIZbtnVFBQt4WoLenHgM2GEuN0wr9V63A8btJrV_cK_syCzzCBJfFw4nEvSOGUoJZUZT2y0hAVtuYY3u4rW8O2xY-qyQPeCgND9cI2ujZ-yR4fkTDPAloqNqyD3ym7tU5z-Z3F2yYTP6OwTjdg9NqZAdhr4eWu-vetQxL26xZowVfS7TiTOyBQbUcvPnaVoMjnU88WrJ0je6obEeSCZqF0wfncgFw3ifWlYYvgsTMqqSKphGTT33NezoofSR2B"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/40 to-transparent"></div>
+</div>
+</header>
+<!-- Fast Actions / Donation Tiers (Bento Style) -->
+<section class="space-y-4">
+<div class="flex items-center justify-between">
+<h2 class="font-headline text-2xl font-bold text-on-background">Quick Support</h2>
+<span class="font-label text-xs font-bold text-primary uppercase tracking-widest">Impact Now</span>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<button class="bg-surface-container-low p-6 rounded-xl flex flex-col items-start gap-4 transition-all active:scale-95 text-left">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="volunteer_activism">volunteer_activism</span>
+<div>
+<div class="font-label text-sm font-semibold opacity-60">Seedling</div>
+<div class="font-headline text-xl font-bold">$25</div>
+</div>
+</button>
+<button class="bg-primary text-on-primary p-6 rounded-xl flex flex-col items-start gap-4 transition-all active:scale-95 text-left">
+<span class="material-symbols-outlined text-on-primary text-3xl" data-icon="park">park</span>
+<div>
+<div class="font-label text-sm font-semibold opacity-80">Guardian</div>
+<div class="font-headline text-xl font-bold">$100</div>
+</div>
+</button>
+<div class="col-span-2 bg-surface-container-highest p-6 rounded-xl flex items-center justify-between">
+<div>
+<div class="font-headline text-xl font-bold">Custom Amount</div>
+<p class="font-body text-sm opacity-70">Support at your own scale</p>
+</div>
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+</section>
+<!-- Join Us Options - Editorial Layout -->
+<section class="space-y-8">
+<div class="space-y-2">
+<h2 class="font-headline text-2xl font-bold text-on-background">Ways to Join</h2>
+<div class="h-1 w-12 bg-primary"></div>
+</div>
+<!-- Volunteering -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col">
+<div class="h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A group of diverse volunteers smiling and working together in a community garden during a soft overcast day" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC942yc8lfWI59GfNcOp8H1jdQlsZvKeU-09sYjjJeXKi5F8mdeShDr-ViR9A7fy7mCrRvHOlM6yzG8tXnez90LXibwtlbboDHOE6NuK304EtIGJIuaginmVjq3oKU4i_ftKM2mvuXuvS4waO0ZEkECJ0isR6UwWV0adunyFcyspfSvBKW4RZycb4YeER7cK3AGkv7kh81YKXUwWifKu2jUCd3X8Yt6EhNLanmC81TcZ5Rd88QDDoCWzAsfPxQqwbSDmwAknYHITyAP"/>
+</div>
+<div class="p-6 space-y-4">
+<h3 class="font-headline text-xl font-bold">Volunteer your time</h3>
+<p class="text-on-surface-variant font-body">Share your skills in archiving, storytelling, or community outreach.</p>
+<button class="w-full py-4 bg-surface-container-highest rounded-full font-label font-bold text-primary transition-all active:bg-outline-variant/20">Explore Roles</button>
+</div>
+</div>
+<!-- Corporate Partners -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col">
+<div class="h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Professional meeting in a minimalist modern office with large windows showing a cityscape at dusk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7_nr2qineeinoZ6TEdFzvDVCZMtpY31JUFjQPzBouMBx4dJMGv2BTSgBicxz_4QWxVpZLl9Adq268TKmLAQka1CfqXXTCKDr4IilXAgvf3RX6LmaXxQ3-hCpmkw7lLuMGzT41mB-8IioElsZNPvwBMD3-oSqpB5kJ5uhUIw-LVQj4Ae1LKoAEGvPzRJCT2bdMgAVAkU2Zwp-jAad93TnR5EvQYWUjiolQ2xiyjqAy_lQsNuJ5ItFPbD3_ReRKVziucuTxrhUUtGPg"/>
+</div>
+<div class="p-6 space-y-4">
+<h3 class="font-headline text-xl font-bold">Corporate Stewardship</h3>
+<p class="text-on-surface-variant font-body">Align your brand with heritage preservation and cultural sustainability.</p>
+<button class="w-full py-4 bg-secondary text-on-secondary rounded-full font-label font-bold transition-all active:scale-[0.98]">Partner With Us</button>
+</div>
+</div>
+</section>
+<!-- Contact Form - Minimalist Tonal Layout -->
+<section class="bg-surface-container rounded-3xl p-8 space-y-8">
+<div class="text-center space-y-2">
+<h2 class="font-headline text-2xl font-bold">Inquiry Form</h2>
+<p class="text-sm font-body opacity-70">Have a specific idea or question? Reach out.</p>
+</div>
+<form class="space-y-6">
+<div class="space-y-1">
+<label class="font-label text-xs font-bold uppercase tracking-wider text-primary">Full Name</label>
+<input class="w-full bg-transparent border-0 border-b-2 border-outline-variant/30 focus:ring-0 focus:border-primary transition-colors py-3 text-lg font-body" placeholder="Eleanor Vance" type="text"/>
+</div>
+<div class="space-y-1">
+<label class="font-label text-xs font-bold uppercase tracking-wider text-primary">Email Address</label>
+<input class="w-full bg-transparent border-0 border-b-2 border-outline-variant/30 focus:ring-0 focus:border-primary transition-colors py-3 text-lg font-body" placeholder="eleanor@archive.org" type="email"/>
+</div>
+<div class="space-y-1">
+<label class="font-label text-xs font-bold uppercase tracking-wider text-primary">Interest Area</label>
+<select class="w-full bg-transparent border-0 border-b-2 border-outline-variant/30 focus:ring-0 focus:border-primary transition-colors py-3 text-lg font-body appearance-none">
+<option>Community Impact</option>
+<option>Archival Projects</option>
+<option>Financial Support</option>
+<option>Other</option>
+</select>
+</div>
+<div class="space-y-1">
+<label class="font-label text-xs font-bold uppercase tracking-wider text-primary">Message</label>
+<textarea class="w-full bg-transparent border-0 border-b-2 border-outline-variant/30 focus:ring-0 focus:border-primary transition-colors py-3 text-lg font-body resize-none" placeholder="Tell us how you'd like to help..." rows="3"></textarea>
+</div>
+<button class="w-full py-5 bg-primary text-on-primary rounded-full font-headline font-bold text-xl shadow-lg shadow-primary/20 active:scale-[0.97] transition-transform" type="submit">Send Message</button>
+</form>
+</section>
+<!-- Stats Counter -->
+<section class="grid grid-cols-2 gap-4 py-8">
+<div class="bg-white/40 backdrop-blur-md p-6 rounded-2xl border border-white/20 text-center">
+<div class="font-headline text-3xl font-bold text-primary">12k+</div>
+<div class="font-label text-xs font-bold opacity-60 uppercase tracking-tighter">Artisans</div>
+</div>
+<div class="bg-white/40 backdrop-blur-md p-6 rounded-2xl border border-white/20 text-center">
+<div class="font-headline text-3xl font-bold text-secondary">45</div>
+<div class="font-label text-xs font-bold opacity-60 uppercase tracking-tighter">Projects</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#eaf3b7] py-16 px-6 space-y-12">
+<div class="space-y-6">
+<div class="font-['Noto_Serif'] text-xl text-[#181e00] font-bold">Desire Foundation</div>
+<p class="font-['Plus_Jakarta_Sans'] text-sm text-[#181e00]/60 leading-relaxed">
+                Dedicated to the preservation of ethereal heritage and the empowerment of global artisan communities.
+            </p>
+</div>
+<div class="grid grid-cols-2 gap-8">
+<div class="flex flex-col gap-4">
+<span class="font-bold text-xs uppercase tracking-widest text-[#ab1c6e]">Navigation</span>
+<a class="text-sm font-medium text-[#181e00]/80" href="#">Our Story</a>
+<a class="text-sm font-medium text-[#181e00]/80" href="#">Impact</a>
+<a class="text-sm font-medium text-[#ab1c6e] font-bold" href="#">Join Us</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-bold text-xs uppercase tracking-widest text-[#ab1c6e]">Legal</span>
+<a class="text-sm font-medium text-[#181e00]/80" href="#">Privacy Policy</a>
+<a class="text-sm font-medium text-[#181e00]/80" href="#">Annual Report</a>
+<a class="text-sm font-medium text-[#181e00]/80" href="#">Careers</a>
+</div>
+</div>
+<div class="pt-8 border-t border-black/5 text-xs text-[#181e00]/40 font-['Plus_Jakarta_Sans'] tracking-wide">
+            © 2024 Desire Foundation. The Ethereal Archive.
+        </div>
+</footer>
+<!-- Mobile Bottom Navigation Shell (Contextual) -->
+<div class="md:hidden fixed bottom-6 left-6 right-6 z-50">
+<div class="bg-[#181e00]/90 backdrop-blur-2xl rounded-full px-8 py-4 flex justify-between items-center shadow-2xl">
+<a class="text-white/60 flex flex-col items-center gap-1" href="#">
+<span class="material-symbols-outlined text-2xl" data-icon="home">home</span>
+</a>
+<a class="text-white/60 flex flex-col items-center gap-1" href="#">
+<span class="material-symbols-outlined text-2xl" data-icon="auto_stories">auto_stories</span>
+</a>
+<a class="text-primary flex flex-col items-center gap-1" href="#">
+<span class="material-symbols-outlined text-2xl" data-icon="favorite" data-weight="fill">favorite</span>
+</a>
+<a class="text-white/60 flex flex-col items-center gap-1" href="#">
+<span class="material-symbols-outlined text-2xl" data-icon="person">person</span>
+</a>
+</div>
+</div>
+</body></html>
