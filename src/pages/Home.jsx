@@ -5,6 +5,7 @@ import SectionReveal from "../components/SectionReveal";
 import Counter from "../components/Counter";
 import TiltCard from "../components/TiltCard";
 import Marquee from "../components/Marquee";
+import useParallax from "../hooks/useParallax";
 import { pillars, impactCounters, partners, projects, brand } from "../data/content";
 
 const rotatingWords = ["Women.", "Forests.", "Livelihoods.", "Dignity."];
@@ -36,6 +37,7 @@ function RotatingTagline() {
 
 export default function Home() {
   const featured = projects.slice(0, 3);
+  const parallax = useParallax(0.2);
 
   return (
     <>
@@ -43,6 +45,14 @@ export default function Home() {
       <section className="relative overflow-hidden bg-cream-100 pb-28">
         <ParticleField className="!inset-0 !absolute opacity-90" />
         <div className="pointer-events-none absolute inset-0 bg-hero-fade" />
+        <div
+          className="pointer-events-none absolute -right-32 top-20 h-[30rem] w-[30rem] rounded-full bg-gold-100/40 blur-[160px]"
+          style={{ transform: `translateY(${parallax * 0.5}px)` }}
+        />
+        <div
+          className="pointer-events-none absolute -left-20 bottom-10 h-[24rem] w-[24rem] rounded-full bg-forest-100/30 blur-[140px]"
+          style={{ transform: `translateY(${-parallax * 0.3}px)` }}
+        />
         <div className="container-page relative grid min-h-[88vh] grid-cols-1 items-center gap-12 pt-28 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <SectionReveal>
@@ -117,9 +127,9 @@ export default function Home() {
                 {[0, 1, 2, 3, 4, 5].map((i) => (
                   <span
                     key={i}
-                    className="absolute left-1/2 top-1/2 h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold-400 shadow-gold animate-pulse-soft"
+                    className="absolute left-1/2 top-1/2 h-2.5 w-2.5 rounded-full bg-gold-400 shadow-gold animate-pulse-soft"
                     style={{
-                      transform: `rotate(${(i * 360) / 6}deg) translate(200px) rotate(-${
+                      transform: `translate(-50%, -50%) rotate(${(i * 360) / 6}deg) translate(200px) rotate(-${
                         (i * 360) / 6
                       }deg)`,
                       animationDelay: `${i * 0.4}s`,

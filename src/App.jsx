@@ -1,14 +1,16 @@
+import { lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import FocusAreas from "./pages/FocusAreas";
-import Projects from "./pages/Projects";
-import Programs from "./pages/Programs";
-import Impact from "./pages/Impact";
-import Team from "./pages/Team";
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
+
+const Home = lazy(() => import("./pages/Home"));
+const About = lazy(() => import("./pages/About"));
+const FocusAreas = lazy(() => import("./pages/FocusAreas"));
+const Projects = lazy(() => import("./pages/Projects"));
+const Programs = lazy(() => import("./pages/Programs"));
+const Impact = lazy(() => import("./pages/Impact"));
+const Team = lazy(() => import("./pages/Team"));
+const Contact = lazy(() => import("./pages/Contact"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 export default function App() {
   return (
