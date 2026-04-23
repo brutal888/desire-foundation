@@ -43,7 +43,7 @@ export const pillars = [
     title: "Women Empowerment",
     subtitle: "Dignity, skills, and independent income.",
     icon: "◈",
-    accent: "#D4A24C",
+    accent: "#D97706",
     description:
       "Vocational skilling, micro-enterprise incubation, and leadership circles that turn survival into self-reliance.",
     subInitiatives: [
@@ -63,7 +63,7 @@ export const pillars = [
     title: "Green Environment",
     subtitle: "Forests, soil, and shared air.",
     icon: "❦",
-    accent: "#2D6A4F",
+    accent: "#064E3B",
     description:
       "Miyawaki groves, watershed rebuilds, and zero-waste campuses — regenerating the landscapes our work depends on.",
     subInitiatives: [
@@ -83,7 +83,7 @@ export const pillars = [
     title: "Rural Employment",
     subtitle: "Work that keeps families home.",
     icon: "✦",
-    accent: "#3F8E5C",
+    accent: "#34D399",
     description:
       "Artisan guilds, agri-value chains, and rural tech cells that create stable income without forcing migration.",
     subInitiatives: [
@@ -103,7 +103,7 @@ export const pillars = [
     title: "Social Welfare",
     subtitle: "A floor of dignity for every life.",
     icon: "✿",
-    accent: "#8A6622",
+    accent: "#B45309",
     description:
       "Child nutrition, elder care, healthcare camps, and disaster response — the safety net beneath everything we do.",
     subInitiatives: [

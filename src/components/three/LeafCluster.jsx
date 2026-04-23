@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
-const PALETTE = ["#2d6a4f", "#3f8e5c", "#6aae82", "#d4a24c"];
+const PALETTE = ["#064E3B", "#34D399", "#6EE7B7", "#D97706"];
 
 const LEAVES = Array.from({ length: 14 }, (_, i) => ({
   angle: (i / 14) * Math.PI * 2,
@@ -48,9 +48,9 @@ function Cluster() {
       <mesh ref={core}>
         <icosahedronGeometry args={[0.55, 1]} />
         <meshStandardMaterial
-          color="#1b4131"
+          color="#03261D"
           flatShading
-          emissive="#2d6a4f"
+          emissive="#064E3B"
           emissiveIntensity={0.25}
         />
       </mesh>
@@ -60,7 +60,7 @@ function Cluster() {
       <mesh>
         <sphereGeometry args={[2.2, 32, 32]} />
         <meshBasicMaterial
-          color="#d4a24c"
+          color="#D97706"
           transparent
           opacity={0.05}
           side={THREE.BackSide}
@@ -80,7 +80,7 @@ export default function LeafCluster({ className = "" }) {
       >
         <ambientLight intensity={0.7} />
         <directionalLight position={[3, 5, 3]} intensity={1.2} />
-        <pointLight position={[-3, 2, 2]} intensity={0.5} color="#d4a24c" />
+        <pointLight position={[-3, 2, 2]} intensity={0.5} color="#D97706" />
         <Cluster />
       </Canvas>
     </div>
