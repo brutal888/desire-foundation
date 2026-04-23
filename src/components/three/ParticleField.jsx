@@ -51,7 +51,7 @@ function Seeds() {
         />
       </bufferGeometry>
       <pointsMaterial
-        color={new THREE.Color("#d4a24c")}
+        color={new THREE.Color("#D97706")}
         size={0.08}
         sizeAttenuation
         transparent
@@ -72,7 +72,7 @@ function AmbientGlow() {
     <group ref={group}>
       <mesh position={[0, 0, -4]}>
         <sphereGeometry args={[3.5, 32, 32]} />
-        <meshBasicMaterial color="#1b4131" transparent opacity={0.12} />
+        <meshBasicMaterial color="#03261D" transparent opacity={0.12} />
       </mesh>
     </group>
   );
@@ -87,7 +87,7 @@ export default function ParticleField({ className = "" }) {
         gl={{ antialias: true, alpha: true }}
       >
         <ambientLight intensity={0.6} />
-        <pointLight position={[5, 8, 5]} intensity={0.8} color="#d4a24c" />
+        <pointLight position={[5, 8, 5]} intensity={0.8} color="#D97706" />
         <AmbientGlow />
         <Seeds />
       </Canvas>

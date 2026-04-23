@@ -5,40 +5,40 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Brand palette
+        // Brand palette — Deep Emerald, Warm Gold, Soft Cream, Charcoal
         forest: {
-          50: "#eaf3ee",
-          100: "#cfe4d6",
-          200: "#9cc9ac",
-          300: "#6aae82",
-          400: "#3f8e5c",
-          500: "#2d6a4f", // primary forest green
-          600: "#245640",
-          700: "#1b4131",
-          800: "#132d22",
-          900: "#0b1b14",
+          50: "#ECFDF5",
+          100: "#D1FAE5",
+          200: "#A7F3D0",
+          300: "#6EE7B7",
+          400: "#34D399",
+          500: "#064E3B", // Deep Emerald (primary)
+          600: "#053F30",
+          700: "#043226",
+          800: "#03261D",
+          900: "#021A14",
         },
         gold: {
-          50: "#fbf4e4",
-          100: "#f5e3bb",
-          200: "#edcd86",
-          300: "#e4b75a",
-          400: "#d4a24c", // warm gold
-          500: "#b6872e",
-          600: "#8a6622",
-          700: "#5e4617",
+          50: "#FDF8ED",
+          100: "#FAEDCC",
+          200: "#F3D694",
+          300: "#E9B95E",
+          400: "#D97706", // Warm Gold (primary accent)
+          500: "#B45309",
+          600: "#92400E",
+          700: "#78350F",
         },
         cream: {
-          50: "#fdfbf5",
-          100: "#faf7f0", // cream background
-          200: "#f2ecde",
-          300: "#e8dfc8",
-          400: "#d8cca9",
+          50: "#FFFEF9",
+          100: "#FFFBEB", // Soft Cream (main bg)
+          200: "#FEF3CE",
+          300: "#FDEAB0",
+          400: "#FBE08A",
         },
         ink: {
-          900: "#0f1a14",
-          800: "#152218",
-          700: "#1d2b22",
+          900: "#111827",
+          800: "#1F2937", // Charcoal
+          700: "#374151",
         },
       },
       fontFamily: {
@@ -46,15 +46,15 @@ export default {
         sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        tilt: "0 25px 50px -20px rgba(11, 27, 20, 0.35)",
-        card: "0 10px 30px -12px rgba(11, 27, 20, 0.25)",
-        gold: "0 0 0 1px rgba(212, 162, 76, 0.3), 0 12px 24px -12px rgba(212,162,76,0.35)",
+        tilt: "0 25px 50px -20px rgba(6, 78, 59, 0.35)",
+        card: "0 10px 30px -12px rgba(6, 78, 59, 0.25)",
+        gold: "0 0 0 1px rgba(217, 119, 6, 0.3), 0 12px 24px -12px rgba(217,119,6,0.35)",
       },
       backgroundImage: {
         "grain":
-          "radial-gradient(rgba(15,26,20,0.04) 1px, transparent 1px)",
+          "radial-gradient(rgba(31,41,55,0.04) 1px, transparent 1px)",
         "hero-fade":
-          "linear-gradient(180deg, rgba(250,247,240,0) 0%, rgba(250,247,240,0.8) 70%, #FAF7F0 100%)",
+          "linear-gradient(180deg, rgba(255,251,235,0) 0%, rgba(255,251,235,0.8) 70%, #FFFBEB 100%)",
       },
       keyframes: {
         fadeUp: {

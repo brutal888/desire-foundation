@@ -218,9 +218,9 @@ export default function Contact() {
           <div className="mt-14 overflow-hidden rounded-3xl bg-cream-50 shadow-card ring-1 ring-forest-500/10">
             <div className="relative h-[360px] w-full bg-cream-200">
               <div
-                className="absolute inset-0 bg-[radial-gradient(circle_at_30%_60%,rgba(45,106,79,0.18),transparent_55%),radial-gradient(circle_at_70%_40%,rgba(212,162,76,0.22),transparent_55%)]"
+                className="absolute inset-0 bg-[radial-gradient(circle_at_30%_60%,rgba(6,78,59,0.18),transparent_55%),radial-gradient(circle_at_70%_40%,rgba(217,119,6,0.22),transparent_55%)]"
               />
-              <div className="absolute inset-0 bg-[linear-gradient(transparent_29px,rgba(45,106,79,0.12)_30px),linear-gradient(90deg,transparent_29px,rgba(45,106,79,0.12)_30px)] bg-[length:30px_30px]" />
+              <div className="absolute inset-0 bg-[linear-gradient(transparent_29px,rgba(6,78,59,0.12)_30px),linear-gradient(90deg,transparent_29px,rgba(6,78,59,0.12)_30px)] bg-[length:30px_30px]" />
               <div className="relative flex h-full items-center justify-center">
                 <div className="flex flex-col items-center gap-3 text-center">
                   <div className="relative">

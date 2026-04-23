@@ -26,7 +26,7 @@ function ImpactPin({ theta, phi, radius = 1.02 }) {
   return (
     <mesh ref={ref} position={[x, y, z]}>
       <sphereGeometry args={[0.035, 12, 12]} />
-      <meshBasicMaterial color="#d4a24c" />
+      <meshBasicMaterial color="#D97706" />
     </mesh>
   );
 }
@@ -42,7 +42,7 @@ function Globe() {
       <mesh>
         <icosahedronGeometry args={[1, 4]} />
         <meshStandardMaterial
-          color="#2d6a4f"
+          color="#064E3B"
           wireframe
           transparent
           opacity={0.35}
@@ -51,7 +51,7 @@ function Globe() {
       <mesh>
         <icosahedronGeometry args={[0.985, 2]} />
         <meshStandardMaterial
-          color="#1b4131"
+          color="#03261D"
           transparent
           opacity={0.92}
           flatShading
@@ -63,7 +63,7 @@ function Globe() {
       <mesh>
         <sphereGeometry args={[1.15, 32, 32]} />
         <meshBasicMaterial
-          color="#d4a24c"
+          color="#D97706"
           transparent
           opacity={0.08}
           side={THREE.BackSide}
@@ -83,7 +83,7 @@ export default function ImpactGlobe({ className = "" }) {
       >
         <ambientLight intensity={0.8} />
         <directionalLight position={[4, 5, 3]} intensity={1.1} />
-        <pointLight position={[-3, -2, 3]} intensity={0.6} color="#d4a24c" />
+        <pointLight position={[-3, -2, 3]} intensity={0.6} color="#D97706" />
         <Globe />
       </Canvas>
     </div>

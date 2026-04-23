@@ -8,7 +8,7 @@ function Front({ pillar }) {
     <div
       className="relative flex h-full w-full flex-col justify-between overflow-hidden rounded-3xl bg-cream-50 p-8 ring-1 ring-forest-500/10 shadow-card"
       style={{
-        background: `linear-gradient(145deg, #faf7f0 0%, ${pillar.accent}22 100%)`,
+        background: `linear-gradient(145deg, #FFFBEB 0%, ${pillar.accent}22 100%)`,
       }}
     >
       <div>
@@ -36,7 +36,7 @@ function Back({ pillar }) {
     <div
       className="flex h-full w-full flex-col justify-between rounded-3xl p-8 text-cream-50 shadow-tilt"
       style={{
-        background: `linear-gradient(160deg, ${pillar.accent} 0%, #1b4131 100%)`,
+        background: `linear-gradient(160deg, ${pillar.accent} 0%, #03261D 100%)`,
       }}
     >
       <div>
