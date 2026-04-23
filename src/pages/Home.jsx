@@ -5,6 +5,7 @@ import SectionReveal from "../components/SectionReveal";
 import Counter from "../components/Counter";
 import TiltCard from "../components/TiltCard";
 import Marquee from "../components/Marquee";
+import useParallax from "../hooks/useParallax";
 import { pillars, impactCounters, partners, projects, brand } from "../data/content";
 
 const rotatingWords = ["Women.", "Forests.", "Livelihoods.", "Dignity."];
@@ -36,6 +37,7 @@ function RotatingTagline() {
 
 export default function Home() {
   const featured = projects.slice(0, 3);
+  const parallax = useParallax(0.2);
 
   return (
     <>
@@ -43,6 +45,14 @@ export default function Home() {
       <section className="relative overflow-hidden bg-cream-100 pb-28">
         <ParticleField className="!inset-0 !absolute opacity-90" />
         <div className="pointer-events-none absolute inset-0 bg-hero-fade" />
+        <div
+          className="pointer-events-none absolute -right-32 top-20 h-[30rem] w-[30rem] rounded-full bg-gold-100/40 blur-[160px]"
+          style={{ transform: `translateY(${parallax * 0.5}px)` }}
+        />
+        <div
+          className="pointer-events-none absolute -left-20 bottom-10 h-[24rem] w-[24rem] rounded-full bg-forest-100/30 blur-[140px]"
+          style={{ transform: `translateY(${-parallax * 0.3}px)` }}
+        />
         <div className="container-page relative grid min-h-[88vh] grid-cols-1 items-center gap-12 pt-28 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <SectionReveal>
